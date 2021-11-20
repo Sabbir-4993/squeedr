@@ -1,0 +1,99 @@
+.searchComponent {
+  position: relative;
+
+  .select-wrapper {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    height: 40px;
+    width: 365px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: -3px 3px 4px #00000029;
+    border: 1px solid #29bdef;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px 0px 20px;
+
+    .search__input {
+      padding-left: 5px;
+      border: none;
+      // color: #aebaca;
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+
+      .places {
+        margin-right: 12px;
+        position: relative;
+
+        .value__select {
+          width: 110px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          span {
+            padding-right: 4px;
+            font: normal normal bold 14px/17px Lato;
+            color: #29bdef;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+
+          .down-icon {
+            margin-top: 1px;
+            font: normal normal bold 14px/17px Lato;
+            color: #29bdef;
+          }
+        }
+
+        .menu {
+          width: 110px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          z-index: 1;
+          background: #ffffff 0% 0% no-repeat padding-box;
+          box-shadow: -3px 3px 6px #00000029;
+          border: 1px solid #aebaca;
+          border-radius: 10px;
+
+          .top {
+            padding: 5px 10px;
+            display: flex;
+            justify-content: space-between;
+            span {
+              font: normal normal normal 14px/17px Lato;
+              color: #596066;
+            }
+
+            .caret-up {
+              margin-top: 3px;
+              font: normal normal normal 14px/17px Lato;
+              color: #868e96;
+            }
+          }
+
+          .select-item {
+            border-top: 1px solid #aebaca;
+            padding: 5px 0px 5px 10px;
+            font: normal normal normal 14px/17px Lato;
+            color: #868e96;
+          }
+        }
+      }
+    }
+  }
+}
+
+.icons {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #29bdef;
+  cursor: pointer;
+}

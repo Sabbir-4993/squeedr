@@ -1,0 +1,306 @@
+.home-main-calendar-wrapper {
+  padding: 36px 40px 0px;
+
+  .header-calendar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .months {
+      width: 160px;
+      display: flex;
+      align-items: center;
+      font: normal normal normal 28px/34px Lato;
+      color: #000000;
+
+      .arrow {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+      }
+    }
+
+    .middle {
+      display: flex;
+
+      .all-workspace,
+      .team,
+      .all-events,
+      .montly {
+        cursor: pointer;
+        margin: 0px 5px;
+        height: 40px;
+        min-width: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        border: 1px solid #aebaca;
+        border-radius: 10px;
+        color: #868e96;
+        font-size: 16px;
+        font-family: Lato;
+        font-weight: normal;
+      }
+    }
+
+    .last {
+      display: flex;
+    }
+  }
+
+  .divider {
+    margin-top: 25px;
+    background: #aebaca;
+    opacity: 0.5;
+    height: 1px;
+  }
+
+  .calendar-main {
+    overflow-x: auto;
+    padding-bottom: 150px;
+
+    .table-head {
+      padding: 15px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font: normal normal normal 16px/19px Lato;
+      color: #aebaca;
+      text-transform: capitalize;
+    }
+
+    .date-div {
+      position: relative;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: -4px 3px 6px #00000029;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      height: 125px;
+      min-width: 180px;
+      width: 180px;
+      margin: 10px;
+      padding: 5px 10px;
+
+      .date {
+        // width: 150px;
+        text-align: center;
+        font: normal normal bold 16px/19px Lato;
+        color: #aebaca;
+        text-transform: capitalize;
+      }
+
+      .currentDate {
+        color: #29bdef !important;
+      }
+
+      .dateNext {
+        color: #000000;
+        font: normal normal 900 16px/19px Lato;
+      }
+
+      .text-wrapper {
+        .events {
+          margin-top: 5px;
+          display: flex;
+          align-items: center;
+          .dot {
+            width: 12px;
+            min-width: 12px;
+            height: 12px;
+            border-radius: 50%;
+          }
+
+          .text {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-left: 10px;
+            font: normal normal normal 14px/17px Lato;
+            color: #596066;
+          }
+        }
+
+        .more {
+          margin-top: 5px;
+          margin-left: 22px;
+          font: normal normal normal 14px/17px Lato;
+          color: #29bdef;
+        }
+      }
+
+      .text-opa {
+        opacity: 0.5;
+      }
+
+      .status-wrapper {
+        display: none;
+        width: 480px;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: -3px 3px 6px #00000029;
+        border-radius: 10px;
+        .date-header {
+          padding: 15px;
+          background: #f7f8fb 0% 0% no-repeat padding-box;
+          border-radius: 10px 10px 0px 0px;
+          font: normal normal normal 20px/24px Lato;
+          color: #000000;
+        }
+
+        .custom-table {
+          width: 100%;
+          padding: 15px 15px 0px;
+
+          .head-tr {
+            font: normal normal normal 12px/15px Lato;
+            color: #aebaca;
+            display: flex;
+
+            .today {
+              margin-left: 8px;
+              width: 55px;
+            }
+
+            .name-room {
+              width: 190px;
+            }
+
+            .host {
+              width: 100px;
+            }
+
+            .status {
+              width: 60px;
+            }
+
+            .type {
+              width: 40px;
+            }
+          }
+
+          .body-tr {
+            display: flex;
+            align-items: center;
+            background: #f7f8fb 0% 0% no-repeat padding-box;
+            border: 1px solid #aebaca;
+            border-radius: 10px;
+            margin-top: 10px;
+            padding: 7px 0px;
+
+            .today {
+              margin-left: 8px;
+              width: 55px;
+              font: normal normal normal 14px/17px Lato;
+              color: #596066;
+            }
+
+            .name-room {
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+              width: 190px;
+              font: normal normal normal 14px/17px Lato;
+              color: #868e96;
+              padding-right: 10px;
+            }
+
+            .host {
+              width: 100px;
+              font: normal normal normal 14px/17px Lato;
+              color: #868e96;
+            }
+
+            .status {
+              width: 60px;
+              padding-left: 6px;
+            }
+
+            .type {
+              width: 40px;
+            }
+          }
+
+          .body-tr-cuurent {
+            border: 1px solid #29bdef;
+          }
+        }
+
+        .no-more {
+          padding: 10px 15px 15px;
+          font: normal normal normal 12px/15px Lato;
+          color: #aebaca;
+        }
+      }
+
+      .status-wrapper-current-border {
+        border: 1px solid #29bdef;
+      }
+
+      .xxxx {
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        left: 50px;
+      }
+
+      .dddd {
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        right: 50px;
+      }
+
+      &:hover {
+        .status-wrapper {
+          display: block;
+        }
+      }
+    }
+
+    .datediv-currentDate {
+      border: 1px solid #29bdef;
+    }
+
+    .datediv-notCurrent {
+      border: 1px solid #aebaca;
+    }
+  }
+}
+
+.display-none {
+  display: none;
+}
+
+@media only screen and (max-width: 1250px) {
+  .home-main-calendar-wrapper {
+    .header-calendar {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+
+      .months {
+        display: flex;
+      }
+
+      .middle {
+        margin: 10px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+      }
+
+      .last {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .home-main-calendar-wrapper {
+    padding: 36px 40px 0px 60px;
+  }
+}

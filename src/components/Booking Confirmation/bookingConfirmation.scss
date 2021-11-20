@@ -1,0 +1,64 @@
+.bookingConfirmation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #29bdef;
+    border: 2px solid #29bdef;
+    border-radius: 50%;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    text-align: center;
+    font: normal normal bold 28px/26px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .para {
+    margin-top: 6px;
+    font: normal normal normal 16px/20px Lato;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #aebaca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .cutomer {
+      color: #29bdef;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .bookingConfirmation {
+    .title {
+      font: normal normal bold 20px/26px Lato;
+    }
+
+    .para {
+      margin-top: 6px;
+      text-align: center;
+      font: normal normal normal 15px/20px Lato;
+      letter-spacing: 0px;
+      opacity: 1;
+      color: #aebaca;
+
+      .cutomer {
+        color: #29bdef;
+      }
+    }
+  }
+}

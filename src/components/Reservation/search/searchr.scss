@@ -1,0 +1,107 @@
+.search-select-wrapper-hr {
+  position: relative;
+
+  .search-select {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #aebaca;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    color: #aebaca;
+
+    .input {
+      font: normal normal normal 16px/19px Lato;
+      color: #aebaca;
+    }
+  }
+
+  .search-select-menu {
+    display: none;
+    box-shadow: -3px 3px 6px #00000029;
+    border-radius: 0px 0px 10px 10px;
+    border-right: 1px solid #aebaca;
+    background: #fff;
+    width: 100%;
+    top: 40px;
+    position: absolute;
+    z-index: 2;
+
+    .check-menu-item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 10px 0px;
+      border-top: 0.5px solid #aebaca;
+      opacity: 0.6;
+      justify-content: space-between;
+      padding: 10px;
+
+      .checkbox-div {
+        margin: 0px 20px;
+        width: 14px;
+        height: 14px;
+        border: 2px solid #aebaca;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .checkbox-inner {
+          min-width: 10px;
+          min-height: 10px;
+          border-radius: 50%;
+          background: #29bdef;
+        }
+      }
+
+      .checkbox-dis {
+        display: none;
+      }
+
+      .text {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        font: normal normal normal 15px/18px Lato;
+        color: #868e96;
+        text-transform: capitalize;
+      }
+    }
+  }
+  .up232 {
+    display: none;
+  }
+  .arrow22 {
+    display: flex;
+  }
+  .arrow232 {
+    padding-left: 7px;
+  }
+  .drop232 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  &:hover {
+    .up232 {
+      display: block;
+      margin-top: 5px;
+    }
+    .down232 {
+      display: none;
+    }
+    .search-select {
+      border: 1px solid #aebaca;
+      border-bottom: none;
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    .search-select-menu {
+      display: block;
+    }
+  }
+}

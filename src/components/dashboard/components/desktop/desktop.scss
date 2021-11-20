@@ -1,0 +1,15 @@
+.desktop-component {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #f7f8fb;
+}
+
+@media only screen and (max-width: 850px) {
+  .desktop-component {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: transparent;
+  }
+}

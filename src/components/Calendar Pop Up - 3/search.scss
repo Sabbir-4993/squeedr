@@ -1,0 +1,58 @@
+.mainDisplay {
+  display: flex;
+  float: right;
+}
+
+.mainSearchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 365px;
+  height: 40px;
+  // background-color: black;
+  border-radius: 20px;
+  border-radius: 20px;
+  border: #29bdef 2px solid;
+  color: #aebaca;
+}
+
+.searchInput {
+  width: 100%;
+  border: none;
+  height: 98%;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.searchIcon {
+  margin-right: 5px;
+  color: #29bdef;
+}
+
+.selectLabel {
+  margin-right: -10px;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: none !important;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: none !important;
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  color: #29bdef !important;
+}
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  color: #29bdef !important;
+}
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  margin-left: 30px;
+}
+
+.checkList {
+  margin-top: -10px !important;
+}

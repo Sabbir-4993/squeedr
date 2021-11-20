@@ -1,0 +1,623 @@
+.toolbarLogin {
+  display: flex;
+  flex-direction: row;
+  background-color: #37465f;
+  color: white;
+  border-bottom: #37465f 2px solid;
+}
+
+.headingLogoLogin {
+  margin-left: 2px;
+}
+.mobilescrollheader01 {
+  display: none;
+}
+.drawerImageDivLogin {
+  overflow: hidden;
+  /* background-color: #37465f; */
+  background-image: url("../../assets/mainPic.png");
+  height: 100vh;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.opacityLogin {
+  background-color: #37465f;
+  height: 100vh;
+  opacity: 0.63;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.lowerDrawerContentLogin {
+  flex-direction: column;
+  color: white;
+  margin-left: 20px;
+  position: relative;
+  margin-bottom: 20%;
+  top: -260px;
+}
+
+.dotsLogin {
+  height: auto;
+  width: auto;
+  margin-left: 40%;
+}
+.mainContainerLogin {
+  width: 171vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContentDivLogin {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: auto;
+  background-color: black;
+}
+
+.headerLogin {
+  width: 100%;
+  height: 20%;
+  background-color: #37465f;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  padding: 10px 0;
+}
+
+.mainContentLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  background-color: #222b3c;
+}
+
+.headerLogoDivLogin {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: aliceblue;
+  margin-left: 20px;
+  border: #29bdef 2px solid;
+}
+
+.headerLogoLogin {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.textDivLogin {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.headingFirstLogin {
+  text-align: left;
+  font-size: 18px;
+  color: #aebaca;
+}
+
+.headingSecondLogin {
+  color: #e4e6e9;
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.newHereLogin {
+  align-self: end;
+  margin-top: 10px;
+  /* margin-top: 20px; */
+
+  /* margin-left: 45%; */
+  /* margin-right: 10%; */
+}
+.newHereTextLogin {
+  color: #aebaca;
+  font-size: 14px;
+}
+
+.textFieldsLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  /* height: 18vh; */
+  /* background-color: black; */
+  margin-top: 10px;
+}
+
+.passwordDivLogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+.emailInputLogin {
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  padding-left: 10px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.passwordInputLogin {
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  width: 70%;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.eyeLogoLogin {
+  color: #b8c3d0;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.goButtonLogin {
+  background-color: #20b6ea;
+  color: white;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 50px;
+}
+
+.remember-forgotLogin {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 10px;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.forgotLogin {
+  color: #aebaca;
+  font-size: 14px;
+}
+
+.checkButtonLogin {
+  width: 5px;
+  height: 5px;
+}
+
+.borderDivLogin {
+  width: 25%;
+  height: 5%;
+  border-bottom: #2f3c52 2px solid;
+  margin-top: 15px;
+}
+
+.mainLogosLogin {
+  display: flex;
+  justify-content: space-between;
+  width: 17vw;
+  height: 15%;
+  /* background-color: black; */
+  margin-top: 15px;
+}
+
+.googleDivLogin {
+  width: 25%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.googleLogoLogin {
+  border-radius: 100%;
+  /* width: 50px;
+	height: 50px; */
+}
+
+.outlookLogoLogin {
+  border-radius: 100%;
+  /* width: 50px;
+	height: 50px; */
+}
+
+.outlookDivLogin {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.facebookDivLogin {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.facebookLogoLogin {
+  color: white;
+  font-size: 50px;
+}
+
+.headingFirstLogin,
+.headingSecondLogin,
+.newHereTextLogin {
+  margin-bottom: 0rem;
+}
+
+.logoHeader {
+  display: none;
+  border-bottom: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileViewSignUpButton {
+  display: none !important;
+}
+
+.mobileViewHeaderLogo {
+  /* height: 55%;
+	width: 50% */
+}
+.guestweb12 {
+  display: contents;
+}
+
+@media (max-width: 850px) {
+  .guestweb12 {
+    display: none;
+  }
+  .mainContainerLogin {
+    width: 100%;
+  }
+  .css-gtzar7-MuiDrawer-docked {
+    display: none !important;
+  }
+  .css-s9g0bo {
+    display: none !important;
+  }
+
+  .mobilescrollheader01 {
+    display: flex;
+
+    flex-direction: column;
+    position: absolute;
+    gap: -5px;
+    /* top: -250
+	px
+	; */
+    margin-top: 20px;
+    white-space: nowrap;
+
+    z-index: 100;
+    top: 100vh;
+    margin-left: 15px;
+  }
+
+  .loginbuttons12121 {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    margin-top: 45px;
+  }
+  .mobileViewSignUpButton {
+    display: flex !important;
+    background: #37465f 0% 0% no-repeat padding-box;
+    box-shadow: -3px 3px 6px #00000029;
+    border: 1px solid #37465f;
+    white-space: nowrap;
+    text-align: center;
+    font: normal normal normal 11px/19px Lato;
+    letter-spacing: 0px;
+    color: #aebaca;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 18px 58px;
+    /* display: flex !important;
+		height: 10% !important;
+		border-color: #aebaca !important;
+		color: #aebaca !important;
+		font-size: 20px !important;
+		margin-top: 3% !important; */
+  }
+  .padding112b {
+    padding: 18px 15px !important;
+  }
+
+  .mainContentDivLogin {
+    width: 100%;
+    height: 100vh;
+    background-color: #222b3c;
+  }
+
+  .logoHeader {
+    display: flex;
+    /* height: 12%; */
+
+    width: 100%;
+    /* height: 66px; */
+    background-color: #37465f;
+    box-shadow: 0px 5px black;
+  }
+
+  .headingFirstLogin {
+    font-size: 23px !important;
+  }
+
+  .headingSecondLogin {
+    font-size: 20px !important;
+  }
+
+  .newHereLogin {
+    display: none !important;
+  }
+
+  .headerLogin {
+    background-color: #222b3c !important;
+    height: auto;
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .headerLogoDivLogin {
+    margin-left: 10%;
+    /* height: 60% */
+  }
+
+  .textDivLogin {
+    margin-left: 3.5%;
+  }
+
+  .googleDivLogin {
+    height: 90%;
+  }
+
+  .outlookDivLogin {
+    height: 90%;
+  }
+
+  .facebookDivLogin {
+    /* height: 90% */
+  }
+
+  .mainLogosLogin {
+    margin-top: 3%;
+  }
+
+  .continueWithMobileView {
+    font-size: 17px !important;
+  }
+
+  .termsMobileView {
+    margin-top: 5% !important;
+    font-size: 17px !important;
+  }
+
+  .checkButtonLogin {
+    width: 10px !important;
+    height: 10px !important;
+    margin-top: 2px;
+  }
+
+  .rememberMeMobileView {
+    font-size: 13px !important;
+  }
+
+  .forgotLoginMobileView {
+    font-size: 13px !important;
+  }
+
+  .borderDivLogin {
+    height: 2%;
+  }
+
+  .textFieldsLogin {
+    /* height: 20% */
+  }
+
+  .emailInputLogin {
+    border-radius: 16px;
+  }
+
+  .passwordDivLogin {
+    border-radius: 16px;
+  }
+
+  .passwordInputLogin {
+    border-radius: 16px;
+  }
+
+  .goButtonLogin {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 18%;
+    font-size: 20px !important;
+  }
+
+  .eyeLogoLogin {
+    font-size: 25px !important;
+    margin-top: 15px !important;
+  }
+
+  .emailInputLogin {
+    font-size: 18.5px;
+    padding-left: 20px;
+    font-weight: bolder;
+  }
+
+  .passwordInputLogin {
+    font-size: 18.5px;
+    padding-left: 20px;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 400px) {
+  .termsMobileView {
+    margin-top: 2% !important;
+    font-size: 14px !important;
+  }
+
+  .emailInputLogin {
+    font-size: 13.5px;
+    padding-left: 20px;
+    font-weight: bolder;
+    height: 40px;
+  }
+  .passwordDivLogin {
+    border-radius: 16px;
+    height: 40px;
+  }
+  .eyeLogoLogin {
+    font-size: 22px !important;
+    margin-top: 8px !important;
+  }
+  .googleDivLogin {
+    width: 50px;
+    height: 50px;
+  }
+  .facebookDivLogin {
+    width: 50px;
+    height: 50px;
+  }
+  .outlookDivLogin {
+    width: 50px;
+    height: 50px;
+  }
+  .goButtonLogin {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 16%;
+    font-size: 17px !important;
+  }
+  .rememberMeMobileView {
+    font-size: 10px !important;
+  }
+
+  .forgotLoginMobileView {
+    font-size: 10px !important;
+  }
+
+  .passwordInputLogin {
+    font-size: 13.5px;
+    padding-left: 20px;
+    font-weight: bolder;
+    height: 40px;
+  }
+  .mainLogosLogin {
+    /* height: max-content; */
+    margin-bottom: 5px;
+  }
+  .logoHeader {
+    display: flex;
+    /* height: 12%; */
+    width: 100%;
+    height: 50px;
+    background-color: #37465f;
+    box-shadow: 0px 5px black;
+  }
+  .logoHeader h1 {
+    font-size: 35px !important;
+  }
+  .headerLogoDivLogin {
+    margin-left: 10%;
+
+    width: 50px;
+    height: 50px;
+  }
+  .headingFirstLogin {
+    font-size: 18px !important;
+  }
+  .headingSecondLogin {
+    font-size: 16px !important;
+  }
+
+  .mobileViewSignUpButton {
+    padding: 12px 58px;
+  }
+  .padding112b {
+    padding: 12px 16px !important;
+  }
+}
+@media screen and (max-width:350px) {
+  .loginbuttons12121 {
+   flex-direction: column;
+  }
+}
+@media screen and (max-width: 380px) {
+  .loginbuttons12121 {
+    /* margin-top: 10px; */
+    /* flex-direction: column; */
+  }
+  .textFieldsLogin {
+    /* height: 20%; */
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 900px) {
+  .mainContentDivLogin {
+    width: 45vw;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1000px) {
+  .mainLogosLogin {
+    width: 20vw;
+  }
+  .googleLogoLogin,
+  .outlookLogoLogin,
+  .facebookDivLogin {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .mainLogosLogin {
+    width: 60vw;
+  }
+  /* .facebookLogoLogin {
+		font-size: 30px;
+	} */
+}
+input:focus-visible {
+  outline: none;
+}
+.passwordInputLogin::placeholder {
+  position: relative;
+  top: 9px;
+  font-size: 25px;
+}
+@media screen and (min-width: 850px) {
+  .lastSection,
+  .footerContent {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .mainContainerLogin {
+    height: auto;
+  }
+}

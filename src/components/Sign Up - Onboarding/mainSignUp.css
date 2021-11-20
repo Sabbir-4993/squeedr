@@ -1,0 +1,317 @@
+.contentWrapperSignup {
+	display: flex;
+	height: 100vh;
+	flex: 1 1 0%;
+	flex-wrap: wrap;
+}
+
+.mainContentSignup {
+	width: 50%;
+	height: 100vh;
+	background-color: #37465f;
+	position: absolute;
+	/* opacity: 1;
+	z-index: 10; */
+	padding: 15px 20px;
+}
+
+.imageContainerSignup {
+	background-image: url('../../assets/mainPic.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 67%;
+	height: 100vh;
+	padding-left: 16%;
+	overflow: hidden;
+	margin-left: auto;
+	/* background-color: #263043; */
+	background-color: rgba(55,70,95,.5);
+}
+
+.opacitySignUp {
+	background-color: #37465f;
+	opacity: .65;
+	height: 100vh;
+	/* opacity: 0.63; */
+	justify-content: end;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+.pictureSignup {
+	height: 100vh;
+	width: 100vh;
+	overflow: hidden;
+	width: 1100px;
+	height: 801px;
+}
+
+.logoTextSignup {
+	/* background-color: black; */
+	display: flex;
+	/* padding-left: 2%; */
+	padding-top: 1%;
+	width: 127px;
+	height: 33px;
+}
+
+.logoHeadingSignup {
+	color: white;
+}
+.teamBtnContentSignup {
+	display: flex;
+	flex-direction: row;
+	/* margin-left: -2%; */
+	margin-top: 3%;
+	/* background-color: red; */
+	/* width: 30%; */
+	/* height: 19px; */
+	/* height: 19px; */
+}
+
+.textSignup {
+	color: #c8c8c8;
+	margin-top: 2%;
+	width: 100%;
+
+	/* margin-left: 10px; */
+}
+
+.goBackDivSignup {
+	/* width: 90px; */
+	display: flex;
+	flex-direction: row;
+	/* background-color: black; */
+	/* margin-top: -1.5%; */
+	/* margin-left: 18px; */
+	margin-left: -0.5%;
+}
+
+.goBackBtnTextSignup {
+	color: white;
+	margin-top: 2px;
+}
+
+.mainDivSignup {
+	width: 40%;
+	margin-top: 60px;
+	height: 350px;
+	margin-left: 30%;
+	/* background-color: black; */
+}
+
+.logoAndNameSignup {
+	display: flex;
+	flex-direction: row;
+}
+
+.signUpLogoSignup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	height: 90px;
+	border-radius: 100%;
+	border: #19b2e7 2px solid;
+	background-color: #29bdef;
+}
+
+.signUpImgSignup {
+	width: 55%;
+	height: 50px;
+}
+
+.signUpTextsSignup {
+	width: 70%;
+	height: 90px;
+	/* background-color: blue; */
+}
+
+.firstHeadingSignup {
+	width: 100%;
+	height: 45px;
+	/* margin-top: -20px; */
+	/* background-color: orange; */
+}
+
+.firstHeadingTextSignup {
+	margin-right: 45%;
+	margin-top: -0px;
+	/* margin-top: -10px; */
+	color: white;
+	font-weight: 100;
+	font-size: larger;
+	margin: 0px 120px 0px 0px;
+}
+
+.secondHeadingTextSignup {
+	color: white;
+	font-weight: 100;
+	font-size: larger;
+	margin: 0px 20px 0px 0px;
+}
+
+.passwordDivSignup {
+	display: flex;
+	flex-direction: row;
+
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.passwordInputSignup {
+	border: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 100%;
+	width: 70%;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.eyeLogoSignup {
+	color: #b8c3d0;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.goButtonSignup {
+	background-color: #20b6ea;
+	color: white;
+	border: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 50px;
+}
+
+.alreadyTextSignup {
+	color: #c8c8c8;
+}
+
+.termsCondSignup {
+	color: #29bdef;
+	margin-top: -5px;
+	font-size: 14px;
+}
+
+.borderLineSignup {
+	width: 30%;
+	height: 20px;
+	margin-left: 35%;
+	/* background-color: #c8c8c8; */
+	border-bottom: #c8c8c8 1px solid;
+}
+
+.socialMediaIconsSignup {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 65px;
+	/* background-color: white; */
+	margin-top: 39px;
+}
+
+.googleSignup {
+	width: 25%;
+	height: 65px;
+	/* background-color: black; */
+}
+
+.outlookSignup {
+	width: 25%;
+	height: 65px;
+	background-color: #2d88ff;
+	display: flex;
+}
+
+.facebookSignup {
+	width: 25%;
+	height: 65px;
+	background-color: #2d88ff;
+}
+
+.footerContentSignUp {
+	margin-bottom: 6%;
+	margin-right: 5%;
+	position: relative;
+    top: -238px;
+}
+
+.goBackBtnTextSignup,
+.headingFirstSignup,
+.headingSecondSignup {
+	margin-bottom: 0rem;
+}
+
+/* .contentWrapperSignup {
+	display: flex;
+	flex-direction: column;
+} */
+
+@media (max-width: 850px) {
+	.contentWrapperSignup {
+		height: 84vh;
+		/* display: flex;
+		flex-direction: column !important; */
+	}
+
+	.logoTextSignup,
+	.teamBtnContentSignup,
+	.goBackDivSignup {
+		display: none ;
+	}
+
+	.mainContentSignup {
+		width: 100%;
+		height: auto;
+	}
+
+	.imageContainerSignup {
+		width: 100%;
+	}
+	.mainContainerSignup {
+		padding-top: 0 !important;
+		margin-top: -3vh
+	}
+	.mainContent-Signup {
+		height: auto !important;
+	}
+	.imageContainerSignup {
+		display: none;
+	}
+}
+.lastSection {
+	width: 100%;
+	background-image: url('/src/assets/16020.png');
+	height: 100vh;
+	background-repeat: no-repeat;
+	opacity: 0.75;
+    background-color: #37465f;
+}
+.color {
+	background-color: #37465f;
+	height: 100%;
+}
+.footerContent {
+	position: relative;
+    height: 0;
+    top: -287px;
+    text-align-last: end;
+}
+.carousel101{
+ display: flex;
+ gap: 20px;
+ justify-content: end;
+}
+.dot101{
+	height: 12px;
+	width: 12px;
+	border: 1px solid #AEBACA;
+	border-radius: 50%;
+	cursor: pointer;
+	
+}

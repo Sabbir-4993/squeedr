@@ -1,0 +1,201 @@
+.searchinvoice12{
+    background:  #FFFFFF 0% 0% no-repeat padding-Box;
+    border: 1px solid #AEBACA;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+
+}
+.search121{
+ justify-content: space-between;
+ align-items: center;
+}
+.button3date {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #aebaca;
+    border-radius: 10px;
+    opacity: 1;
+    width: 250px;
+    margin-left: 20px;
+    height: 40px;
+  }
+  .mobileviewinvoice{
+    padding:40px 20px 0px 20px ;
+    margin-bottom:70px
+
+  }
+ 
+.intitle{
+  
+text-align: left;
+font: normal normal bold 18px/22px Lato;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.divider232{
+ 
+    margin-top: 10px;
+    border-top: 1px solid #AEBACA;
+    padding: 15px 0px;
+  
+}
+.divider2321{
+ 
+    margin-top: 15px;
+    border-top: 1px solid #AEBACA;
+    padding: 0px 0px 10px 0px;
+  
+}
+.searchbardrop{
+  
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #AEBACA;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2px;
+    height: 40px ;
+
+    width: 100%;
+}
+.card232{
+    margin-top: 30px;
+  
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #AEBACA;
+border-radius: 10px;
+opacity: 1;
+height: auto;
+padding-bottom: 10px;
+width: 100%;
+}
+.innermain232{
+    
+}
+.cardinner232{
+     display: flex;
+    overflow: hidden;
+     justify-content: space-between;
+     padding:20px 20px 0px 20px;
+     align-items: center;
+}
+.p232{
+    margin-bottom: 0px !important;
+   
+
+text-align: left;
+font: normal normal bold 16px/22px Lato;
+letter-spacing: 0.3px;
+color: #000000;
+opacity: 1;
+
+
+}
+
+.card232body{
+    padding:0px 20px 0px 20px;
+
+    
+}
+.innerbody232{
+    display: flex;
+    text-align: left;
+    color: #AEBACA;
+    padding-bottom: 10px;
+    
+    font: normal normal normal 14px/22px Lato;
+}
+.span232{
+    color:black;
+    font: normal normal normal 14px/22px Lato;
+
+ 
+
+}
+.innerspan232{
+    color: #AEBACA;
+    font: normal normal normal 14px/22px Lato;
+
+}
+.innerbody2321{
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #29BDEF;
+    opacity: 1;
+}
+
+@media(max-width:361px){
+    .innerbody2321{
+        font: normal normal normal 11px/17px Lato;
+    }
+    .innerbody232{
+        gap:5px
+    }
+    .innerspan232{font: normal normal normal 11px/17px Lato;}
+    .span232{font: normal normal normal 11px/17px Lato;}
+    .innerbody232{font: normal normal normal 11px/17px Lato;}
+    .cardend232{font: normal normal normal 11px/17px Lato;}
+    .p232{ font: normal normal normal 14px/22px Lato;}
+}
+@media( min-width:362px) and  ( max-width:500px){
+    .innerbody2321{font: normal normal normal 14px/24px Lato;}
+    .innerspan232{font: normal normal normal 14px/24px Lato;}
+    .span232{font: normal normal normal 14px/24px Lato;}
+    .innerbody232{font: normal normal normal 14px/24px Lato;}
+    .p232{ font: normal normal normal 16px/22px Lato;}
+}
+@media(min-width:501px){
+    .innerbody2321{font: normal normal normal 16px/24px Lato;}
+    .innerspan232{font: normal normal normal 16px/24px Lato;}
+    .span232{font: normal normal normal 16px/24px Lato;}
+    .innerbody232{font: normal normal normal 16px/24px Lato;}
+}
+@media(max-width:330px){
+    .cardinner232{padding: 20px 0px 0px 10px;}
+    }
+.cardend232{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+font: normal normal normal 14px/17px Lato;
+letter-spacing: 0px;
+color: #AEBACA;
+opacity: 1;
+}
+.intitler{
+    display: flex;
+    justify-content: space-between;
+    font: normal normal bold 18px/24px Lato;
+    align-items: center;
+}
+.revdateextend{
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #AEBACA;
+    opacity: 1;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+@media(max-width:850px){
+    .reservemobile{
+         display: block;
+    }
+}
+@media(min-width:851px){
+  .reservemobile{
+       display: none;
+
+  }
+}
+@media(min-width:851px){
+    .mobileviewinvoice{
+         display: none;
+    }
+  }

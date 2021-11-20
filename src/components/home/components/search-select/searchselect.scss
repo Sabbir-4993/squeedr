@@ -1,0 +1,114 @@
+.search-select-wrapper {
+  position: relative;
+  // display: flex;
+  // justify-content: space-between;
+
+  .search-select {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #aebaca;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    color: #aebaca;
+
+    .input {
+      width: 75%;
+      font: normal normal normal 16px/19px Lato;
+      color: #aebaca;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+
+  .search-select-menu {
+    display: none;
+    box-shadow: -3px 3px 6px #00000029;
+    border-radius: 0px 0px 10px 10px;
+    border-right: 1px solid #aebaca;
+    background: #fff;
+    width: 400px;
+    top: 40px;
+    position: absolute;
+    z-index: 100;
+
+    .check-menu-item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 10px 0px;
+      border-top: 0.5px solid #aebaca;
+      opacity: 0.6;
+
+      .checkbox-div {
+        margin: 0px 20px;
+        width: 14px;
+        height: 14px;
+        border: 2px solid #aebaca;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .checkbox-inner {
+          min-width: 10px;
+          min-height: 10px;
+          border-radius: 50%;
+          background: #29bdef;
+        }
+      }
+
+      .checkbox-dis {
+        display: none;
+      }
+
+      .text {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        font: normal normal normal 15px/18px Lato;
+        color: #868e96;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  &:hover {
+    .search-select {
+      border: 1px solid #aebaca;
+      border-bottom: none;
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    .search-select-menu {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .search-select-wrapper {
+    width: 100%;
+
+    .search-select {
+      width: 100%;
+    }
+
+    .search-select-menu {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .search-select-wrapper {
+    .search-select {
+      .input {
+        width: 60%;
+      }
+    }
+  }
+}

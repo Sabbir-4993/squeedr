@@ -1,0 +1,403 @@
+.home-page {
+  background-color: #f7f8fb;
+  height: 100%;
+  padding: 1.5rem 1.5rem 0rem 1.5rem;
+
+  .home-wrapper {
+    // background-color: #ffffff;
+    // height: 100%;
+
+    .home-navbar {
+      display: flex;
+      justify-content: space-between;
+
+      .Navlinks {
+        display: flex;
+
+        .mar {
+          margin-left: 1px;
+        }
+
+        .event {
+          cursor: pointer;
+          width: 120px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #f4f4f4 0% 0% no-repeat padding-box;
+          //   box-shadow: -2px 0px 6px #0000001f;
+          box-shadow: -2px -1px 6px #0000001f;
+          border-radius: 10px 10px 0px 0px;
+          opacity: 1;
+          font: normal normal normal 18px/22px Lato;
+          letter-spacing: 0px;
+          color: #868e96;
+        }
+
+        .event-active {
+          color: #000000;
+          background: #ffffff 0% 0% no-repeat padding-box;
+          //   box-shadow: -3px 0px 6px #0000001f;
+          box-shadow: -3px -1px 6px #0000001f;
+          border-radius: 10px 10px 0px 0px;
+        }
+
+        .appoint {
+          cursor: pointer;
+          width: 180px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #f4f4f4 0% 0% no-repeat padding-box;
+          //   box-shadow: -2px 0px 6px #00000029;
+          box-shadow: -2px -1px 6px #00000029;
+          border-radius: 10px 10px 0px 0px;
+          opacity: 1;
+          font: normal normal normal 18px/22px Lato;
+          letter-spacing: 0px;
+          color: #868e96;
+        }
+
+        .appoint-active {
+          background: #ffffff 0% 0% no-repeat padding-box;
+          //   box-shadow: -2px 0px 6px #00000029;
+          box-shadow: -2px -1px 6px #00000029;
+          color: #000000;
+        }
+
+        .spaces {
+          cursor: pointer;
+          width: 120px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #f4f4f4 0% 0% no-repeat padding-box;
+          //   box-shadow: 2px 0px 6px #00000029;
+          box-shadow: 2px -1px 6px #00000029;
+          border-radius: 10px 10px 0px 0px;
+          opacity: 1;
+          font: normal normal normal 18px/22px Lato;
+          letter-spacing: 0px;
+          color: #868e96;
+        }
+
+        .spaces-active {
+          background: #ffffff 0% 0% no-repeat padding-box;
+          //   box-shadow: 2px 0px 6px #00000029;
+          box-shadow: 2px -1px 6px #00000029;
+          color: #000000;
+        }
+
+        .shop {
+          cursor: pointer;
+          width: 100px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #f4f4f4 0% 0% no-repeat padding-box;
+          //   box-shadow: 2px 0px 6px #00000029;
+          box-shadow: 2px -1px 6px #00000029;
+          border-radius: 10px 10px 0px 0px;
+          opacity: 1;
+          font: normal normal normal 18px/22px Lato;
+          letter-spacing: 0px;
+          color: #868e96;
+        }
+
+        .shop-active {
+          background: #ffffff 0% 0% no-repeat padding-box;
+          //   box-shadow: 2px 0px 6px #00000029;
+          box-shadow: 2px -1px 6px #00000029;
+          color: #000000;
+        }
+      }
+
+      .icons-div {
+        display: flex;
+
+        .icons {
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 30px;
+          font-weight: bold;
+          color: #29bdef;
+          cursor: pointer;
+        }
+
+        .margin-right {
+          margin-right: 2.5rem;
+        }
+      }
+    }
+
+    .home-body {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: -3px 3px 6px #0000001f;
+      border-radius: 0px 10px 10px 10px;
+
+      .body-side1 {
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+      .body-side2 {
+        min-width: 350px;
+        width: 350px;
+        border-left: 0.5px solid #aebaca;
+        padding: 2rem;
+
+        .arrow-div {
+          display: flex;
+          justify-content: space-between;
+
+          .extra {
+            width: 40px;
+          }
+
+          .dot-wrapper {
+            width: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .dot {
+              width: 14px;
+              height: 14px;
+              border-radius: 50%;
+              border: 1px solid #aebaca;
+            }
+
+            .color-29BDEF {
+              background-color: #29bdef;
+            }
+          }
+
+          .icon-wrapper {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: -3px 3px 6px #0000001f;
+            color: #aebaca;
+
+            &:hover {
+              color: #29bdef;
+            }
+          }
+        }
+
+        .contact-div {
+          .accordion {
+            margin-top: 2rem;
+
+            .css-15v22id-MuiAccordionDetails-root {
+              // padding: 8px 16px 16px;
+              padding: 0px;
+            }
+
+            .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+              border-radius: 10px;
+              background-color: #f4f4f4;
+              box-shadow: 0px 3px 6px #00000029;
+            }
+
+            .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+              background-color: #29bdef;
+              border-radius: 10px;
+              height: 60px;
+            }
+
+            .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+              border-radius: 10px 10px 0px 0px;
+            }
+
+            .accordion-header {
+              background-color: #29bdef;
+              width: 100%;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              font: normal normal normal 18px/22px Lato;
+              letter-spacing: 0px;
+              color: #ffffff;
+              text-transform: capitalize;
+              opacity: 1;
+            }
+
+            .css-pwcg7p-MuiCollapse-root {
+              background-color: #f4f4f4;
+            }
+
+            .css-15v22id-MuiAccordionDetails-root {
+              border: 1px solid #aebaca;
+              border-radius: 0px 0px 10px 10px;
+            }
+
+            .accordion-body {
+              padding: 0px 16px;
+              margin-bottom: 20px;
+
+              .icon-text-address,
+              .icon-text-contact,
+              .icon-text-email,
+              .icon-text-work {
+                margin-top: 20px;
+
+                .title {
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-start;
+
+                  .icon {
+                    color: #aebaca;
+                    font-size: 18px;
+                  }
+
+                  span {
+                    margin-left: 10px;
+                    font: normal normal normal 14px/17px Lato;
+                    letter-spacing: 0px;
+                    color: #aebaca;
+                    opacity: 1;
+                  }
+                }
+
+                .subtitle {
+                  margin-top: 10px;
+
+                  text-align: left;
+                  font: normal normal normal 16px/23px Lato;
+                  letter-spacing: 0px;
+                  opacity: 1;
+                  color: #596066;
+                }
+              }
+
+              .spaces-div {
+                display: flex;
+                justify-content: space-between;
+              }
+            }
+
+            .accordion-footer {
+              cursor: pointer;
+
+              .divider {
+                background-color: #aebaca;
+                width: 100%;
+                height: 1px;
+              }
+
+              .send-message {
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #aebaca;
+
+                span {
+                  margin-right: 15px;
+                  font: normal normal normal 14px/17px Lato;
+                  letter-spacing: 0px;
+                  text-transform: capitalize;
+                  opacity: 1;
+                }
+              }
+
+              &:hover {
+                .divider {
+                  background-color: #29bdef;
+                }
+
+                .send-message {
+                  color: #29bdef;
+                }
+              }
+            }
+          }
+        }
+
+        .view-memberships-component {
+          margin-top: 2rem;
+          height: 60px;
+          width: 100%;
+          background: #ffffff 0% 0% no-repeat padding-box;
+          border: 1px solid #29bdef;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+
+          .view-memberships-div {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 16px;
+            text-align: left;
+            font: normal normal normal 18px/22px Lato;
+            color: #29bdef;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile-home-page {
+  display: none;
+}
+
+@media only screen and (max-width: 1395px) {
+  .home-page {
+    .body-side2 {
+      min-width: 300px !important;
+      width: 300px !important;
+      padding: 1rem !important;
+
+      .contact-div {
+        .accordion {
+          .accordion-header {
+            font: normal normal normal 16px/22px Lato !important;
+          }
+
+          .accordion-body {
+            padding: 0px 10px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .home-page {
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .home-page {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .home-page {
+    display: none;
+  }
+
+  .mobile-home-page {
+    display: block;
+  }
+}

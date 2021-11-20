@@ -1,0 +1,299 @@
+.main_reserve {
+  /* width: 1180px;
+    height: 210px; */
+  /* margin-left: 10px; */
+  background: transparent
+    linear-gradient(
+      180deg,
+      #f7f8fb 0%,
+      #f7f8fb 88%,
+      #f7f8fbf2 93%,
+      #f7f8fb00 100%
+    )
+    0% 0% no-repeat padding-box;
+
+  overflow: auto;
+}
+
+@media (max-width: 850px) {
+  .main_reserve {
+    display: none;
+  }
+}
+.top_reserve {
+  /* max-width: 1100px; */
+  width: 100%;
+  height: 180px;
+  padding-top: 36px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+@media (max-width: 1000px) {
+  .top_reserve {
+    margin: 0px 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .main_table_div {
+    padding-left: 72px !important;
+  }
+}
+.tp_reserve {
+  display: flex;
+  justify-content: space-between;
+}
+.reserve_h2 {
+  font-size: 34px;
+  color: #000000;
+}
+.reserve_icons {
+  margin-top: 18px;
+  padding-right: 16px;
+}
+.search_icon {
+  color: #29bdef;
+  cursor: pointer;
+}
+.line {
+  /* margin-top: 20px; */
+  width: 100%;
+}
+.date_btn {
+  width: 200px;
+  height: 40px !important;
+  margin-top: 15px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #aebaca !important;
+  border-radius: 10px !important;
+  color: #868e96 !important;
+  font-size: 15px !important;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date_btn2 {
+  width: 100%;
+  height: 40px !important;
+  margin-top: 15px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #aebaca !important;
+  border-radius: 10px !important;
+  color: #868e96 !important;
+  font-size: 15px !important;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.gari {
+  padding-left: 5px;
+}
+.tickgreen {
+  float: right;
+}
+.tables {
+  display: flex;
+  width: 100%;
+  /* margin: 0% 3.1%; */
+  align-items: center !important;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.table_span {
+  font-size: 15px;
+  color: #aebaca;
+}
+.tabless {
+  display: flex;
+  max-width: 1100px;
+  margin: 0% 2.8%;
+  align-items: center !important;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.table_spans {
+  display: flex;
+}
+
+.main_table_div {
+  width: 100%;
+  /* max-width:1100px; */
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.table_head {
+  border-bottom: 0px;
+}
+.table_heading {
+  font-size: 15px;
+  color: #aebaca;
+  font-weight: 400;
+  padding: 0px 10px !important;
+}
+.table_body {
+  height: 80vh;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 5px #00000012;
+
+  opacity: 1;
+  margin-top: 15px;
+}
+.table_bodies {
+  vertical-align: middle;
+}
+.body_tr {
+  height: 80px;
+  border-radius: 10px !important;
+  border-style: none !important;
+  border-color: none !important;
+  border-width: none !important;
+}
+tr {
+  border-radius: 10px !important;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+.prof {
+  text-align: center;
+}
+.download-rela {
+  position: relative;
+}
+.downloadhover22 {
+  background-color: #aebaca;
+  color: #e5e8ee;
+  font-size: 11px;
+  display: none;
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  border-radius: 16px;
+}
+.download-rela:hover > .downloadhover22 {
+  display: block;
+}
+.firstdiv11 {
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  box-shadow: -3px 3px 6px #00000029;
+  border: 1px solid #aebaca;
+  border-radius: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  width: 195px;
+}
+.content111th {
+  text-align: left;
+  font: normal normal normal 15px/18px Lato;
+  letter-spacing: 0px;
+  color: #868e96;
+  opacity: 1;
+}
+.innerthings111 {
+  padding: 12px 12px 11px 11px;
+  display: flex;
+  justify-content: space-between;
+}
+.heightea {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: inherit;
+}
+.meet {
+  font-size: 16px;
+  color: black;
+}
+.zoom {
+  font-size: 16px;
+  color: #868e96;
+}
+.hosting:hover {
+  color: skyblue;
+}
+
+.ant-dropdown {
+  border: 0.01rem solid #aebaca;
+  /* border-radius:10px; */
+  top: 172px !important;
+}
+.ant-dropdown-placement-bottomCenter {
+}
+
+.second {
+  margin-left: 10px;
+}
+.activity {
+  color: skyblue;
+}
+.actbtns {
+  width: 250px;
+}
+.actbtns2 {
+  width: 100%;
+}
+
+.activityhover {
+  color: #868e96;
+}
+.search {
+  /* width: 28px;
+  height: 28px; */
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: end;
+}
+.filt {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.liness {
+  height: 21px;
+  width: 30px;
+}
+.lines {
+  margin-left: 10px;
+}
+.react-date-picker__wrapper {
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #aebaca !important;
+  width: 215px;
+}
+.react-date-picker__inputGroup__input {
+  font-size: 15px !important;
+  /* width: auto !important; */
+  /* width: 14px; */
+  padding: 2px;
+  color: #aebaca;
+}
+.react-date-picker__button svg {
+  color: #aebaca;
+}
+.react-date-picker__inputGroup__divider {
+  color: #aebaca;
+}
+
+.downloadrmbutton {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+.downlaodrminner:hover .downloadhover22 {
+  display: block;
+  right: -123%;
+}
+
+@media (min-width: 850px) {
+  .reservation201 {
+    display: none;
+  }
+  .invoiceshidden111 {
+    display: none;
+  }
+}

@@ -1,0 +1,204 @@
+.eventMobileCard,
+.appointement-MobileCard {
+  .dates {
+    padding: 0px 20px;
+    width: 100%;
+    background-color: #f8f8f8;
+    overflow-x: scroll;
+
+    .today {
+      min-width: 50px;
+      font: normal normal normal 12px/15px Lato;
+      color: #37465f;
+    }
+
+    table {
+      width: 100%;
+
+      .day {
+        min-width: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: normal normal normal 12px/15px Lato;
+        color: #37465f;
+      }
+
+      .active {
+        border-bottom: 2px solid #123fd2;
+        border-radius: 2px 2px 0px 0px;
+      }
+    }
+  }
+
+  .mobile-home-view-card-wrapper {
+    padding: 20px;
+
+    .latest-card {
+      padding: 20px 20px 10px 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      // height: 150px;
+      background: #fff;
+      box-shadow: 2px 2px 20px #00000029;
+
+      .up {
+        display: flex;
+        .img {
+          min-width: 68px;
+          width: 68px;
+          height: 68px;
+          border-radius: 50%;
+          background: #29bdef;
+          box-shadow: 0px 3px 6px #00000029;
+        }
+
+        .text-wrapper {
+          padding-left: 10px;
+          width: 100%;
+
+          .title {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Lato;
+            color: #263043;
+          }
+
+          .add {
+            margin-top: 4px;
+            font-size: 9px;
+            font-weight: normal;
+            font-family: Lato;
+            color: #263043;
+          }
+
+          .para {
+            margin-top: 7px;
+            display: flex;
+            justify-content: space-between;
+            .time {
+              font-size: 11px;
+              font-weight: bold;
+              font-family: Lato;
+              color: #263043;
+            }
+
+            .slot {
+              font-size: 11px;
+              font-weight: bold;
+              font-family: Lato;
+            }
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .waiting {
+          font-size: 8px;
+          font-weight: bold;
+          font-family: Lato;
+          color: #000;
+        }
+
+        .success {
+          display: flex;
+          align-items: center;
+          span {
+            margin-left: 2px;
+            font-size: 8px;
+            font-weight: bold;
+            font-family: Lato;
+            color: #01a601;
+          }
+        }
+
+        .btn-wrapper {
+          width: 91px;
+          height: 31px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #fec82f;
+          border-radius: 5px;
+        }
+
+        .btn-wrapper-available {
+          background: #fec82f 0% 0% no-repeat padding-box;
+          box-shadow: 0px 3px 6px #00000029;
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 31px;
+          padding: 0px 10px;
+          font: normal normal normal 11px/13px Lato;
+          color: #ffffff;
+          text-transform: capitalize;
+
+          span {
+            color: #263043;
+            font: normal normal bold 11px/13px Lato;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .eventMobileCard,
+  .appointement-MobileCard {
+    .dates {
+      padding: 0px 10px;
+    }
+
+    .mobile-home-view-card-wrapper {
+      padding: 10px;
+
+      .latest-card {
+        padding: 10px;
+        margin-top: 10px;
+
+        .up {
+          .img {
+            min-width: 48px;
+            width: 48px;
+            height: 48px;
+          }
+
+          .text-wrapper {
+            padding-left: 6px;
+
+            .title {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .eventMobileCard,
+  .appointement-MobileCard {
+    .mobile-home-view-card-wrapper {
+      .bottom {
+        .btn-wrapper-available {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly !important;
+          align-items: flex-end !important;
+          height: auto !important;
+          padding: 5px !important;
+        }
+      }
+    }
+  }
+}

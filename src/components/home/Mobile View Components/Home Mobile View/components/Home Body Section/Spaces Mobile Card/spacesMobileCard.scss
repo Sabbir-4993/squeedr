@@ -1,0 +1,131 @@
+.spaces-mobile-card {
+  padding: 20px;
+  // padding: 20px 0px 0px 20px;
+  // display: grid;
+  // grid-template-columns: 50% 50%;
+
+  .card-inner {
+    // margin-right: 20px;
+    height: 220px;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #000;
+    border-radius: 10px;
+
+    .image {
+      opacity: 0.5;
+      img {
+        max-width: 100%;
+        width: 100%;
+        height: 220px;
+        border-radius: 10px;
+      }
+    }
+
+    .content {
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+
+      .up {
+        height: 50%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+
+        .full {
+          height: 25px;
+          padding: 5px 15px;
+          background: #33e68d 0% 0% no-repeat padding-box;
+          border-radius: 13px;
+          font: normal normal bold 12px/14px Lato;
+          opacity: 1;
+          color: #ffffff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .time {
+          height: 25px;
+          margin: 0px 15px;
+          padding: 5px 15px;
+          background: #868e96 0% 0% no-repeat padding-box;
+          border-radius: 13px;
+          font: normal normal bold 12px/14px Lato;
+          color: #ffffff;
+          opacity: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .down {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .title {
+          padding-left: 15px;
+          font: normal normal normal 14px/15px Lato;
+          color: #ffffff;
+        }
+
+        .price {
+          padding-left: 15px;
+          margin: 15px 0px 30px 0px;
+          font: normal normal bold 18px/15px Lato;
+          color: #ffffff;
+
+          span {
+            font: normal normal bold 14px/15px Lato;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .spaces-mobile-card {
+    .card-inner {
+      height: 190px;
+
+      .image {
+        img {
+          height: 190px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .spaces-mobile-card {
+    .card-inner {
+      height: 170px;
+
+      .image {
+        img {
+          height: 170px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .spaces-mobile-card {
+    padding: 15px 10px;
+
+    .card-inner {
+      position: relative;
+      margin-bottom: 15px;
+    }
+  }
+}

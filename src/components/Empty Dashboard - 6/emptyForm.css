@@ -1,0 +1,482 @@
+.drawerHeaderForm {
+	display: flex;
+	height: 10%;
+	background-color: #37465f;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.drawerForm {
+	background-color: #37465f;
+	width: auto;
+	height: 100vh;
+}
+.react-select-3-listbox {
+	background-color: white;
+	height: 200px;
+}
+.mainComponentForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh; */
+	padding: 50px 0;
+	width: 100%;
+	background-color: #00000026;
+}
+
+.drawerHeaderLogoForm {
+	width: auto;
+}
+
+.formDialog {
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+	flex-direction: column;
+	/* width: 40%;
+	height: 85%; */
+	border-radius: 16px;
+}
+
+.headingDialogForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/* height: 12.5%; */
+	color: black;
+	border-radius: 16px;
+	margin: 30px 0 !important;
+}
+
+.firstLineForm {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	/* width: 86%; */
+	/* height: 12%; */
+}
+
+.firstNameDivForm {
+	/* width: 40%; */
+}
+
+.LastNameDivForm {
+	/* width: 40%; */
+}
+
+.contactPhoneDivForm {
+	/* width: 40%; */
+}
+
+.contactPhone2DivForm {
+	/* width: 40%; */
+}
+
+.dropImageForm {
+	border:1px dotted #AEBACA ;
+	border-radius:50% ;
+	height: 70px;
+	width: 70px;
+	cursor: pointer;
+	background: #F4F4F4 0% 0% no-repeat padding-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.uploadimage{
+	cursor: pointer;
+	text-align: center;
+font: normal normal normal 16px/20px Lato;
+letter-spacing: 0px;
+color: #868E96;
+align-items: center;
+display: flex;
+flex-direction: column
+}
+.imagecircle1{
+               
+	height: 70px;
+	width: 70px;
+	cursor: pointer;
+   position: relative;
+	display: flex;
+	justify-content: center;
+   
+	align-items: center;
+	margin-right: 15px;}
+	.profileimg01{
+		opacity: 1;
+		height: 70px;
+		width: 70px;
+		border: 2px solid #29BDEF; 
+		border-radius:50% ;
+		transition: .5s ease;
+		object-fit: cover;
+
+		margin-right:15px
+	}
+	.profileimg01:hover{
+		opacity: 0.3;
+	}
+	.deleteprofile01{
+		transition: .5s ease;
+		 opacity: 0;
+		 position: absolute;
+		 top: 50%;
+		 cursor: pointer;
+	   left: 50%;
+	   transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	   text-align: center;}
+	   .deleteprofile01:hover{
+		opacity: 1;
+	   }
+
+.firstNameInputForm {
+	display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    border-color: #aebaca;
+    border: #aebaca 2px solid;
+}
+
+.lastNameInputForm {
+	display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    border-color: #aebaca;
+    border: #aebaca 2px solid;
+}
+
+.secondLineForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/* height: 8%; */
+}
+
+.thirdLineForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 10px;
+	/* height: 8%; */
+}
+
+.emailInputForm {
+	display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    border-color: #aebaca;
+    border: #aebaca 2px solid;
+}
+
+.passwordInputForm {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+	width: 100%;
+	height: 40px;
+	border-color: #aebaca;
+
+	border: #aebaca 2px solid;
+}
+.passwordMainInputForm {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	border: none;
+}
+
+.fourthLineForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 10px;
+	/* height: 8%; */
+}
+
+.confirmPasswordInputForm {
+	border-radius: 10px;
+	width: 600px;
+	height: 40px;
+	border-color: #aebaca;
+	padding: 10px;
+}
+
+.fifthLineForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 10px;
+	height: 8%;
+}
+
+.timeSelectForm {
+	width: 100%;
+	border-color: #aebaca;
+	padding-top: 10px;
+}
+.timeSelectForm > div {
+	border-radius: 10px;
+	height: auto;
+	border-color: #aebaca !important ;
+}
+.dzu-dropzone {
+	visibility: none;
+}
+.sixthLineForm {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* height: 12%; */
+	margin-top: 30px;
+}
+
+.contactPhoneInputForm {
+	display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    border-color: #aebaca;
+    border: #aebaca 2px solid;
+}
+
+.contactPhone2InputForm {
+	display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    border-color: #aebaca;
+    border: #aebaca 2px solid;
+}
+
+.headerDialogFormMobileView {
+	display: none;
+}
+
+.saveButtonMobileView {
+	display: none !important ;
+}
+
+.termsFormMobileView {
+	display: none !important ;
+}
+.contactPhoneDivForm {
+	padding-right: 10px;
+}
+@media (max-width: 601px) {
+	.mainDrawerFormMobileView {
+		display: none;
+	}
+	.contactPhone2DivForm {
+		margin-top: 20px !important;
+	}
+	.contactPhoneDivForm {
+		padding-right: 0;
+	}
+
+	.displayNoneMobileView {
+		display: none !important;
+	}
+
+	.formDialog {
+		width: 100%;
+		height: 92%;
+		border-radius: 0px;
+	}
+
+	.mainComponentForm {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+	.wrapper {
+		margin-top: 30px;
+	}
+	.headerDialogFormMobileView {
+		display: flex;
+		/* height: 8%; */
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		background-color: #37465f;
+		padding: 17px 0;
+	}
+
+	.headerDialogIconFormMobileView {
+		width: 45%;
+	}
+
+	.firstLineForm {
+		display: flex;
+		flex-direction: column;
+		/* height: 30%; */
+	}
+
+	.firstNameDivForm {
+		width: 100%;
+	}
+
+	.LastNameDivForm {
+		width: 100%;
+	}
+
+	.firstNameDivPMobileView {
+		font-size: 20px !important;
+	}
+
+	.lastNameDivPMobileView {
+		font-size: 20px !important;
+	}
+
+	.firstNameInputForm {
+		height: 60px;
+	}
+
+	.lastNameInputForm {
+		height: 60px;
+	}
+	.dropPMobileViewForm {
+		margin-bottom: 0rem !important;
+		font-weight: bold !important;
+		font-size: 25px !important;
+	}
+
+	.dropIconMobileViewForm {
+		font-size: 35px !important;
+	}
+
+	.headingDialogForm {
+		height: 10%;
+	}
+
+	.headingdialogPMobileView {
+		margin-bottom: 0rem !important;
+		font-size: 25px !important;
+		font-weight: bolder !important;
+	}
+
+	.dropImageForm {
+		height: 130px;
+		width: 130px;
+	}
+
+	.secondLineForm {
+		/* height: 10%; */
+	}
+
+	.emailPMobileView {
+		font-size: 20px !important;
+	}
+
+	.emailInputForm {
+		height: 60px;
+	}
+
+	.thirdLineForm {
+		margin-top: 0px;
+		/* height: 10%; */
+	}
+
+	.passwordPMobileViewForm {
+		font-size: 20px !important;
+	}
+
+	.passwordInputForm {
+		height: 10%;
+	}
+
+	.passwordMainInputForm {
+		height: 60px;
+	}
+
+	.eyePasswordMobileViewForm {
+		font-size: 40px !important;
+		margin-top: 9px !important;
+	}
+
+	.fourthLineForm {
+		margin-top: 0px;
+		/* height: 10%; */
+	}
+
+	.confirmPasswordPMobileView {
+		font-size: 20px !important;
+	}
+
+	.fifthLineForm {
+		margin-top: 0px;
+		margin-bottom: 0rem;
+		/* height: 10%; */
+	}
+
+	.selectContryPMobileView {
+		font-size: 20px !important;
+	}
+
+	.timeSelectForm > div {
+		border-radius: 10px;
+		height: 60px;
+		border-color: #aebaca !important ;
+	}
+
+	.sixthLineForm {
+		display: flex;
+		flex-direction: column;
+		height: 17%;
+		margin-top: 0px;
+	}
+
+	.contactPhoneInputForm {
+		height: 60px;
+	}
+
+	.contactPhone2InputForm {
+		height: 60px;
+	}
+
+	.contactPhone2DivForm {
+		width: 86.5%;
+	}
+
+	.contactPhoneDivForm {
+		width: 86.5%;
+	}
+
+	.mainComponentForm {
+		background-color: #ffffff;
+	}
+
+	.saveButtonMobileView {
+		display: flex !important;
+		margin-top: 0px !important;
+		font-size: 20px !important;
+	}
+
+	.termsFormMobileView {
+		display: block !important;
+		margin-top: 10px !important;
+	}
+
+	/* .termsFormMobileView {
+		display: none !important;
+	} */
+}

@@ -1,0 +1,17 @@
+.scroll__text {
+  position: absolute;
+  bottom: 7vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  font-size: 1.5rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #1890ff;
+}
+@media (min-width: 851px) {
+  .scroll__text {
+    display: none;
+  }
+}

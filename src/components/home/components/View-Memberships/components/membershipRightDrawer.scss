@@ -1,0 +1,1373 @@
+.ant-drawer-content {
+    background-color: transparent !important;
+}
+
+.membership-right-drawer-123 {
+    display: block;
+
+    .membership-right-drawer {
+        display: flex;
+        height: 100vh;
+
+        .card-view-info-drawer {
+            background-color: #fff !important;
+            width: 100%;
+            overflow-y: scroll;
+
+            .header {
+                background-color: #fff;
+                height: 60px;
+                width: 100%;
+                position: fixed;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                padding-left: 20px;
+
+                .md-icon {
+                    cursor: pointer;
+                    font: normal normal normal 18px/22px Lato;
+                    color: #000000;
+                }
+
+                .title {
+                    margin: 0px 20px;
+                    text-align: left;
+                    font: normal normal normal 18px/22px Lato;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    opacity: 1;
+                }
+
+
+
+            }
+
+            .qr_main101 {
+                margin-top: 120px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+
+            .thumbnail {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 60px;
+                width: 100%;
+                height: 260px;
+                position: relative;
+
+                .beforeCard {
+                    display: flex;
+                    width: 332px;
+                    height: 194px;
+                    border-radius: 16px;
+
+                    left: 25px;
+                    bottom: 25px;
+
+                    .firstDiv {
+                        width: 48%;
+                        height: 100%;
+                        border-top-left-radius: 16px;
+                        border-bottom-left-radius: 16px;
+                        background-color: #263043;
+                    }
+
+                    .secondDiv {
+                        width: 4%;
+                        height: 100%;
+                        background-color: #29bdef;
+                    }
+
+                    .thirdDiv {
+                        width: 48%;
+                        height: 100%;
+                        background-image: url('../../../../../assets/membership-drawer/backgroundCardImage.png');
+                        border-top-right-radius: 16px;
+                        border-bottom-right-radius: 16px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+
+                .afterCard {
+                    display: flex;
+                    flex-direction: row;
+                    width: 332px;
+                    height: 194px;
+                    border-radius: 16px;
+                    background-color: #263043;
+                    position: absolute;
+                    top: 50px;
+                    left: 50px;
+
+                    .mainContentFirstDiv {
+                        display: flex;
+                        flex-direction: column;
+
+
+                        width: 75%;
+                        height: 100%;
+                        padding-left: 15px;
+
+                        border-top-left-radius: 16px;
+                        border-bottom-left-radius: 16px;
+
+                        .ownerDetailsDiv {
+                            display: flex;
+                            width: 183px;
+                            height: 43px;
+                            margin-top: 26px;
+                            margin-left: 3px;
+
+                            .ownerImgLogo {
+                                width: 41px;
+                                height: 40px;
+                                border-radius: 100%;
+                                background-color: #263043;
+                                background-image: url('../../../../../assets/membership-drawer/ownerImg.png');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                border: #37465f 2.5px solid;
+                            }
+
+                            .owner-name-title {
+                                display: flex;
+                                flex-direction: column;
+                                width: 127px;
+                                height: 37px;
+                                margin-left: 5px;
+
+                                .owner-name {
+                                    margin-bottom: 0rem;
+                                    font-size: 16px;
+                                    font-family: 'Lato', Regular;
+                                    text-align: left;
+                                    color: white;
+                                    height: 20px;
+                                }
+
+                                .owner-title {
+                                    margin-bottom: 0rem;
+                                    font-size: 12px;
+                                    font-family: 'Lato', Light;
+                                    text-align: left;
+                                    color: #29bdef;
+                                }
+                            }
+                        }
+
+                        .main-btns-div {
+                            display: flex;
+                            justify-content: center;
+                            gap: 10px;
+                            width: 290px;
+                            height: 55px;
+
+                            z-index: 0;
+                            margin-top: 40px;
+
+
+                            .present-button {
+                                width: 140px;
+                                color: #29bdef;
+                                font-size: 10px;
+                                font-family: 'Lato', Regular;
+                                border: 1px solid #29bdef;
+                                border-radius: 10px;
+                                opacity: 1;
+                            }
+
+                            .purchase-button {
+                                width: 115px;
+                                border-radius: 10px;
+                                opacity: 1;
+                                background: transparent linear-gradient(180deg, #08a7de 0%, #29bdef 100%) 0% 0% no-repeat padding-box;
+                                box-shadow: 0px 3px 6px #00000029;
+                                font-size: 10px;
+                                font-family: 'Lato', Regular;
+                            }
+                        }
+
+                        .title {
+                            text-align: left;
+                            font: normal normal normal 15px/19px Lato;
+                            letter-spacing: 0px;
+                            padding-top: 5px;
+                            color: #ffffff;
+                            text-transform: capitalize;
+                            opacity: 1;
+                        }
+
+                        .subtitle {
+                            text-align: left;
+                            font: normal normal 300 12px/15px Lato;
+                            letter-spacing: 0px;
+                            color: #29bdef;
+                            text-transform: capitalize;
+                            opacity: 1;
+                            padding-top: 15px;
+                        }
+
+                        .end {
+
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                        }
+
+                        .qr-image {
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                            display: flex;
+                            flex-direction: column;
+
+                            align-items: end;
+                            gap: 7px;
+                        }
+
+                    }
+
+                    .backgrond-texture-div {
+                        width: 25%;
+                        height: 100%;
+
+                        border-top-right-radius: 16px;
+                        border-bottom-right-radius: 16px;
+                    }
+
+                    .background-texture {
+                        height: 92.5%;
+                        width: 42.37px;
+                        margin-right: 7.5px;
+                        margin-top: 6px;
+                        background-image: url('../../../../../assets/membership-drawer/card-texture.png');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        float: right;
+                    }
+                }
+            }
+
+            .image-toogle {
+                display: flex;
+                margin-top: 49px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 20px;
+
+                .toglebelow101 {
+                    text-align: center;
+                    padding-left: 53px;
+                    padding-right: 57px;
+                    font: normal normal normal 14px/25px Lato;
+                    letter-spacing: 0px;
+                    color: #868E96;
+                    opacity: 1;
+                }
+            }
+
+            .list102 {
+                margin-top: 38px;
+                display: flex;
+                margin-top: 49px;
+
+                padding-left: 15px;
+                padding-right: 20px;
+                flex-direction: column;
+                gap: 20px;
+
+                .listcontent {
+                    text-align: left;
+                    font: normal normal bold 16px/19px Lato;
+                    letter-spacing: 0px;
+                    color: #596066;
+                    display: flex;
+                    justify-content: space-between;
+
+                    opacity: 1;
+
+                    .svg121 {
+
+                        font: normal normal bold 22px/24px Lato;
+                        letter-spacing: 0px;
+                        color: #596066;
+
+
+                        opacity: 1;
+                    }
+
+                    .border {
+
+                        margin: 20px 0px;
+                        border: 0.5px solid #AEBACA
+                    }
+
+                }
+            }
+
+            .innercontent {
+                display: flex;
+                gap: 20px;
+                margin-top: 25px;
+
+
+                .toogle {}
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 16px;
+                    padding-right: 42px;
+
+                    .title {
+                        text-align: left;
+                        font: normal normal normal 16px/19px Lato;
+                        letter-spacing: 0px;
+                        color: #596066;
+                        opacity: 1;
+                    }
+
+                    .subtitle {
+                        text-align: left;
+                        font: normal normal normal 14px/25px Lato;
+                        letter-spacing: 0px;
+                        color: #868E96;
+                        opacity: 1
+                    }
+                }
+
+            }
+
+            .content-information-div {
+                display: flex;
+                flex-direction: column;
+                width: 94%;
+                margin-left: 3%;
+                // height: 0%;
+
+                .first-line {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    align-items: center;
+                    height: 30px;
+
+                    .heading-no-1 {
+                        margin-bottom: 0rem;
+                        color: #aebaca;
+                        font-family: 'Lato', Regular;
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+
+                    .ans-no-1 {
+                        color: #596066;
+                        font-size: 20px;
+                        font-family: 'Lato', Bold;
+                        margin-bottom: 0rem;
+                        margin-left: 67px;
+                    }
+                }
+
+                .second-line {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    align-items: center;
+                    height: 25px;
+
+                    margin-top: 10px;
+
+                    .heading-no-2 {
+                        margin-bottom: 0rem;
+                        color: #aebaca;
+                        font-family: 'Lato', Regular;
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+
+                    .ans-no-2 {
+                        color: #868e96;
+                        font-family: 'Lato', Regular;
+                        font-size: 16px;
+                        margin-bottom: 0rem;
+                        margin-left: 43px;
+                    }
+                }
+
+                .third-line {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    align-items: center;
+                    height: 25px;
+
+                    margin-top: 10px;
+                    color: '#AEBACA';
+
+                    .passes-logo {
+                        font-size: larger;
+                    }
+
+                    .heading-no-3 {
+                        margin-bottom: 0rem;
+                        color: #aebaca;
+                        font-family: 'Lato', Regular;
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+
+                    .ans-no-3 {
+                        color: #868e96;
+                        font-family: 'Lato', Regular;
+                        font-size: 16px;
+                        margin-bottom: 0rem;
+                        margin-left: 47px;
+                    }
+                }
+
+                .forth-line {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 100%;
+                    height: 25px;
+
+                    margin-top: 10px;
+
+                    .clock-logo {
+                        width: 18px;
+                        height: 18px;
+                        margin-left: 5px;
+                    }
+
+                    .heading-no-4 {
+                        margin-bottom: 0rem;
+                        color: #aebaca;
+                        font-family: 'Lato', Regular;
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+
+                    .ans-no-4 {
+                        color: #868e96;
+                        font-family: 'Lato', Regular;
+                        font-size: 16px;
+                        margin-bottom: 0rem;
+                        margin-left: 31px;
+                    }
+                }
+
+                .fifth-line {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: 60px;
+                    margin-top: 10px;
+
+                    .events-logo {
+                        width: 18px;
+                        height: 18px;
+                        margin-left: 5px;
+                    }
+
+                    .heading-no-5 {
+                        color: #aebaca;
+                        margin-bottom: 0rem;
+                        font-family: 'Lato', Regular;
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+
+                    .buttons-fifth-line {
+                        display: flex;
+                        flex-direction: column;
+
+                        margin-left: 50px;
+
+                        .buttons-first-line {
+                            display: flex;
+                        }
+
+                        .service-name-button {
+                            margin-top: 5px;
+                            width: fit-content;
+                        }
+                    }
+                }
+            }
+
+            .content-text {
+                display: flex;
+                width: 94%;
+                margin-left: 3%;
+                margin-top: 10px;
+
+                .content-p {
+                    font-size: 14px;
+                    font-family: 'Lato', Regular;
+                    color: #868e96;
+                }
+
+                .my-anchor-css-class {
+                    text-decoration: none;
+                    color: #29bdef;
+                    margin-top: 10px;
+                }
+            }
+
+            .other-benefits {
+                display: flex;
+                flex-direction: column;
+                width: 94%;
+                height: 30%;
+
+                margin-left: 3%;
+                margin-top: 10px;
+
+                .other-benefits-title-div {
+                    width: 110px;
+                    height: 19px;
+                    color: #596066;
+
+                    .other-benefits-text {
+                        font-size: 16px;
+                        font-family: 'Lato', Regular;
+                    }
+                }
+
+                .other-benefits-main-content {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    height: 100%;
+
+                    .first-line-others {
+                        margin-top: 5%;
+                        display: flex;
+                        width: 100%;
+                        height: 20%;
+
+                        .first-line-others-logo-div {
+                            width: 20%;
+                            height: 100%;
+
+                            .check-logo-first-line {
+                                font-size: 45px;
+                                color: #29bdef;
+                            }
+                        }
+
+                        .first-line-others-text-div {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 80%;
+                            height: 100%;
+
+                            .first-line-text {
+                                font-size: 14px;
+                                color: #868e96;
+                                font-family: 'Lato', Regular;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+.togle {
+    .view__switch {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+
+        .switch {
+            margin-top: 6px;
+
+            .toggle_switch {
+                position: relative;
+                display: flex;
+                height: 20px;
+                width: 40px;
+                background: #29BDEF 0% 0% no-repeat padding-box;
+                border-radius: 99px;
+                border: 1px solid #29BDEF;
+                ;
+                cursor: pointer;
+            }
+
+            .toggle_circle {
+                height: 18px;
+                width: 18px;
+                border-radius: 50%;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                background: white 0% 0% no-repeat padding-box;
+                box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+                -webkit-transform: all 300ms;
+                -webkit-transform: all 300ms;
+                -webkit-transition: all 300ms;
+            }
+
+            .toggle_checkbox {
+                position: absolute;
+                opacity: 0;
+            }
+
+            .toggle_switch .toggle_checkbox:checked+div {
+                -webkit-transform: translate3d(110%, 0, 0);
+                -moz-transform: translate3d(110%, 0, 0);
+                transform: translate3d(110%, 0, 0);
+            }
+        }
+
+        .switch__para {
+            margin-left: 10px;
+            font: normal normal normal 16px/19px Lato;
+            letter-spacing: 0px;
+            color: #AEBACA;
+            text-transform: uppercase;
+        }
+
+    }
+}
+
+
+.membership-mobile-123 {
+    display: none;
+}
+
+// Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux Whisky au juge blond qui fume sur son île intérieure, à côté de l"alcôve Ovoïde, où les bûches se consument dans l"âtre, ce qui lui permet de penser A la cænogenèse de l"être dont il est question dans la cause ambiguë Entendue à Moÿ, dans un capharnaüm qui, pense-t-il, diminue çà et là la Equalité de son œuvre. Prouvez, beau juge, que le fameux sandwich au yak tue. L"île exiguë, Où l"obèse jury mûr Fête l"haï volapük, Âne ex æquo au whist, Ôtez ce vœu déçu. Vieux pelage que je modifie : breitschwanz ou yak ? Dès Noël où un zéphyr haï me vêt de glaçons würmiens, je dîne d’exquis rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera ! Fougueux, j"enivre la squaw au pack de beau zythum. Ketch, yawl, jonque flambant neuve… jugez des prix ! Voyez le brick géant que j"examine près du wharf. Portez ce vieux whisky au juge blond qui fume. Bâchez la queue du wagon-taxi avec les pyjamas du fakir. Voix ambiguë d"un cœur qui, au zéphyr, préfère les jattes de kiwis. Mon pauvre zébu ankylosé choque deux fois ton wagon jaune. Perchez dix, vingt woks. Qu"y flambé-je ? Le moujik équipé de faux breitschwanz voyage. Kiwi fade, aptéryx, quel jambon vous gâchez ! Jugez qu"un vieux whisky blond pur malt fonce. Faux kwachas ? Quel…
+
+@media only screen and (max-width:850px) {
+    .membership-right-drawer-123 {
+        display: none;
+    }
+
+
+    .membership-mobile-123 {
+        display: block;
+
+        .membership-right-drawer-mobile {
+            .close-btn {
+                margin: 60px auto 0px;
+                width: 35px;
+                height: 45px;
+                border-radius: 35px;
+                background-color: #29bdef;
+                display: flex;
+                justify-content: center;
+                color: #fff;
+            }
+
+            .wrapper {
+                margin-top: -8px;
+                display: grid;
+                flex-direction: column;
+                justify-content: normal;
+                background-color: #F7F8FB;
+                padding-bottom: 20px;
+
+                .qr_main101 {
+                    margin-top: 0px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    align-items: center;
+                    justify-content: center;
+
+
+
+                }
+
+
+                .thumbnail {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 60px;
+                    width: 100%;
+                    height: 260px;
+
+                    left: 15px;
+                    position: relative;
+
+                    .beforeCard {
+                        display: flex;
+                        width: 80%;
+                        height: 153px;
+                        border-radius: 16px;
+                        position: absolute;
+                        top: 25px;
+
+
+
+
+
+
+                        .firstDiv {
+                            width: 57%;
+                            height: 100%;
+                            border-top-left-radius: 16px;
+                            border-bottom-left-radius: 16px;
+                            background-color: #263043;
+                        }
+
+                        .secondDiv {
+                            width: 2.3%;
+                            height: 100%;
+                            background-color: #29bdef;
+                        }
+
+                        .thirdDiv {
+                            width: 75%;
+                            height: 100%;
+                            background-image: url('../../../../../assets/membership-drawer/backgroundCardImage.png');
+                            border-top-right-radius: 16px;
+                            border-bottom-right-radius: 16px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                        }
+                    }
+
+                    .afterCard {
+                        display: flex;
+                        flex-direction: row;
+                        width: 80%;
+                        height: 153px;
+                        border-radius: 16px;
+                        background-color: #263043;
+                        position: absolute;
+                        top: 48px;
+                        left: 0px;
+
+                        .mainContentFirstDiv {
+                            display: flex;
+                            flex-direction: column;
+
+
+                            width: 75%;
+                            height: 100%;
+                            padding-left: 15px;
+
+                            border-top-left-radius: 16px;
+                            border-bottom-left-radius: 16px;
+
+                            .ownerDetailsDiv {
+                                display: flex;
+                                width: 183px;
+                                height: 43px;
+                                margin-top: 26px;
+                                margin-left: 3px;
+
+                                .ownerImgLogo {
+                                    width: 41px;
+                                    height: 40px;
+                                    border-radius: 100%;
+                                    background-color: #263043;
+                                    background-image: url('../../../../../assets/membership-drawer/ownerImg.png');
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    border: #37465f 2.5px solid;
+                                }
+
+                                .owner-name-title {
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 127px;
+                                    height: 37px;
+                                    margin-left: 5px;
+
+                                    .owner-name {
+                                        margin-bottom: 0rem;
+                                        font-size: 12px;
+                                        font-family: 'Lato', Regular;
+                                        text-align: left;
+                                        color: white;
+                                        height: 20px;
+                                    }
+
+                                    .owner-title {
+                                        margin-bottom: 0rem;
+                                        font-size: 10px;
+                                        font-family: 'Lato', Light;
+                                        text-align: left;
+                                        color: #29bdef;
+                                    }
+                                }
+                            }
+
+                            .main-btns-div {
+                                display: flex;
+
+                                width: 236px;
+                                margin-top: auto;
+                                gap: 10px;
+
+                                margin-bottom: 15px;
+                                z-index: 0;
+
+
+
+
+                                .present-button {
+
+                                    color: #29bdef;
+                                    font: normal normal normal 9px/12px Lato;
+                                    width: 108px;
+                                    border: 1px solid #29bdef;
+                                    border-radius: 10px;
+                                    opacity: 1;
+                                    text-align: center;
+                                    height: 40px;
+                                    padding: 0px;
+
+                                }
+
+                                .purchase-button {
+
+                                    background: transparent linear-gradient(180deg, #08A7DE 0%, #29BDEF 100%) 0% 0% no-repeat padding-box;
+                                    box-shadow: 0px 3px 6px #00000029;
+                                    border-radius: 10px;
+                                    opacity: 1;
+                                    font: normal normal normal 12px/15px Lato;
+                                    padding: 0px;
+                                    height: 40px;
+                                    width: 108px;
+                                    text-align: center;
+                                    color: #FFFFFF;
+                                    text-transform: capitalize;
+                                    opacity: 1;
+                                }
+                            }
+
+                            .title {
+                                text-align: left;
+                                font: normal normal normal 12px/15px Lato;
+                                letter-spacing: 0px;
+                                padding-top: 2px;
+                                color: #ffffff;
+                                text-transform: capitalize;
+                                opacity: 1;
+                            }
+
+                            .subtitle {
+                                text-align: left;
+                                font: normal normal 300 12px/15px Lato;
+                                letter-spacing: 0px;
+                                color: #29bdef;
+                                text-transform: capitalize;
+                                opacity: 1;
+                                padding-top: 6px;
+                            }
+
+                            .end {
+
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                            }
+
+                            .qr-image {
+                                position: absolute;
+                                top: 10px;
+                                right: 10px;
+                                display: flex;
+                                flex-direction: column;
+
+                                align-items: end;
+                                gap: 7px;
+                            }
+
+                        }
+
+                        .backgrond-texture-div {
+                            width: 25%;
+                            height: 100%;
+
+                            border-top-right-radius: 16px;
+                            border-bottom-right-radius: 16px;
+                        }
+
+                        .background-texture {
+                            height: 92.5%;
+                            width: 42.37px;
+                            margin-right: 7.5px;
+                            margin-top: 6px;
+                            background-image: url('../../../../../assets/membership-drawer/card-texture.png');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            float: right;
+                        }
+                    }
+                }
+
+                .image-toogle {
+                    display: flex;
+                    margin-top: 49px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .toglebelow101 {
+                        text-align: center;
+                        padding-left: 53px;
+                        padding-right: 57px;
+                        font: normal normal normal 14px/25px Lato;
+                        letter-spacing: 0px;
+                        color: #868E96;
+                        opacity: 1;
+                    }
+                }
+
+                .list102 {
+                    margin-top: 38px;
+                    display: flex;
+                    margin-top: 49px;
+
+                    padding-left: 15px;
+                    padding-right: 20px;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .listcontent {
+                        text-align: left;
+                        font: normal normal bold 16px/19px Lato;
+                        letter-spacing: 0px;
+                        color: #596066;
+                        display: flex;
+                        justify-content: space-between;
+
+                        opacity: 1;
+
+                        .svg121 {
+
+                            font: normal normal bold 22px/24px Lato;
+                            letter-spacing: 0px;
+                            color: #596066;
+
+
+                            opacity: 1;
+                        }
+
+                        .border {
+
+                            margin: 20px 0px;
+                            border: 0.5px solid #AEBACA
+                        }
+
+                    }
+                }
+
+                .innercontent {
+                    display: flex;
+                    gap: 20px;
+                    margin-top: 25px;
+
+
+                    .toogle {}
+
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        padding-right: 16px;
+                        padding-right: 42px;
+
+                        .title {
+                            text-align: left;
+                            font: normal normal normal 16px/19px Lato;
+                            letter-spacing: 0px;
+                            color: #596066;
+                            opacity: 1;
+                        }
+
+                        .subtitle {
+                            text-align: left;
+                            font: normal normal normal 14px/25px Lato;
+                            letter-spacing: 0px;
+                            color: #868E96;
+                            opacity: 1
+                        }
+                    }
+
+                }
+
+                .content-information-div {
+                    display: flex;
+                    flex-direction: column;
+                    width: 94%;
+                    margin-left: 3%;
+                    // height: 0%;
+
+                    .first-line {
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        align-items: center;
+                        height: 30px;
+
+                        .heading-no-1 {
+                            margin-bottom: 0rem;
+                            font: normal normal normal 9px/11px Lato;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #AEBACA;
+                            width: 30%;
+                            opacity: 1;
+                        }
+
+                        .ans-no-1 {
+                            text-align: left;
+                            letter-spacing: 0px;
+                            color: #596066;
+                            width: 80%;
+                            margin-bottom: 0rem;
+
+                        }
+                    }
+
+                    .second-line {
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        align-items: center;
+                        height: 25px;
+
+                        margin-top: 10px;
+
+                        .heading-no-2 {
+                            margin-bottom: 0rem;
+                            text-align: left;
+                            font: normal normal normal 8px/10px Lato;
+                            letter-spacing: 0px;
+                            color: #AEBACA;
+                            opacity: 1;
+                            width: 30%;
+                        }
+
+                        .ans-no-2 {
+                            text-align: left;
+                            font: normal normal normal 12px/19px Lato;
+                            letter-spacing: 0.23px;
+                            color: #868E96;
+                            opacity: 1;
+                            margin-bottom: 0rem;
+                            width: 70%;
+                        }
+                    }
+
+                    .third-line {
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        align-items: center;
+                        height: 25px;
+
+                        margin-top: 10px;
+                        color: '#AEBACA';
+
+                        .passes-logo {
+                            font-size: medium;
+                            margin-left: -10px;
+                        }
+
+                        .heading-no-3 {
+                            margin-bottom: 0rem;
+                            text-align: left;
+                            font: normal normal normal 9px/11px Lato;
+                            letter-spacing: 0px;
+                            color: #AEBACA;
+                            width: 24%;
+                        }
+
+                        .ans-no-3 {
+                            text-align: left;
+                            font: normal normal normal 12px/15px Lato;
+                            letter-spacing: 0px;
+                            color: #868E96;
+                            opacity: 1;
+                            margin-bottom: 0rem;
+                            width: 70%;
+                        }
+                    }
+
+                    .forth-line {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        width: 100%;
+                        height: 25px;
+
+                        margin-top: 10px;
+
+                        .clock-logo {
+                            width: 16px;
+                            height: 16px;
+
+                        }
+
+                        .heading-no-4 {
+                            margin-bottom: 0rem;
+                            text-align: left;
+                            font: normal normal normal 9px/11px Lato;
+                            letter-spacing: 0px;
+                            color: #AEBACA;
+                            margin-left: 5px;
+                            width: 24%;
+                        }
+
+                        .ans-no-4 {
+                            text-align: left;
+                            font: normal normal normal 12px/15px Lato;
+                            letter-spacing: 0px;
+                            color: #868E96;
+                            opacity: 1;
+                            margin-bottom: 0rem;
+
+                            width: 70%;
+                        }
+                    }
+
+                    .fifth-line {
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        height: 60px;
+                        margin-top: 10px;
+
+                        .events-logo {
+                            width: 16px;
+                            height: 16px;
+
+                        }
+
+                        .heading-no-5 {
+
+                            margin-bottom: 0rem;
+                            text-align: left;
+                            font: normal normal normal 8px/10px Lato;
+                            letter-spacing: 0px;
+                            color: #AEBACA;
+                            margin-left: 5px;
+                            margin-right: 30px;
+
+                        }
+
+                        .buttons-fifth-line {
+                            display: flex;
+                            flex-direction: column;
+
+
+
+
+                            .buttons-first-line {
+                                display: flex;
+                            }
+
+                            .service-name-button {
+                                margin-top: 5px;
+                                width: fit-content;
+                            }
+                        }
+                    }
+                }
+
+                .content-text {
+                    display: flex;
+                    width: 94%;
+                    margin-left: 3%;
+                    margin-top: 10px;
+
+                    .content-p {
+                        font-size: 14px;
+                        font-family: 'Lato', Regular;
+                        color: #868e96;
+                    }
+
+                    .my-anchor-css-class {
+                        text-decoration: none;
+                        color: #29bdef;
+                        margin-top: 10px;
+                    }
+                }
+
+                .other-benefits {
+                    display: flex;
+                    flex-direction: column;
+                    width: 94%;
+                    height: 30%;
+
+                    margin-left: 3%;
+                    margin-top: 10px;
+
+                    .other-benefits-title-div {
+                        width: 110px;
+                        height: 19px;
+                        color: #596066;
+
+                        .other-benefits-text {
+                            font-size: 16px;
+                            font-family: 'Lato', Regular;
+                        }
+                    }
+
+                    .other-benefits-main-content {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        height: 100%;
+
+                        .first-line-others {
+                            margin-top: 5%;
+                            display: flex;
+                            width: 100%;
+                            height: 20%;
+
+                            .first-line-others-logo-div {
+                                width: 20%;
+                                height: 100%;
+
+                                .check-logo-first-line {
+                                    font-size: 45px;
+                                    color: #29bdef;
+                                }
+                            }
+
+                            .first-line-others-text-div {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 80%;
+                                height: 100%;
+
+                                .first-line-text {
+                                    font-size: 14px;
+                                    color: #868e96;
+                                    font-family: 'Lato', Regular;
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .membership-mobile-123 {
+
+
+        .membership-right-drawer-mobile {
+
+
+            .wrapper {
+                margin-top: -8px;
+                display: grid;
+                flex-direction: column;
+                justify-content: normal;
+                background-color: #F7F8FB;
+                padding-bottom: 20px;
+
+                .thumbnail {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 60px;
+                    width: 100%;
+                    height: 260px;
+                    position: relative;
+
+
+
+                }
+
+                .content-information-div {
+
+
+                    .fifth-line {
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        height: 60px;
+                        margin-top: 10px;
+
+                        .events-logo {
+                            width: 16px;
+                            height: 16px;
+
+                        }
+
+                        .heading-no-5 {
+
+                            margin-bottom: 0rem;
+                            text-align: left;
+                            font: normal normal normal 8px/10px Lato;
+                            letter-spacing: 0px;
+                            color: #AEBACA;
+                            margin-left: 5px;
+                            margin-right: 30px;
+
+                        }
+
+                        .buttons-fifth-line {
+                            display: flex;
+                            flex-direction: column;
+
+
+
+
+
+                            .buttons-first-line {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                            }
+
+                            .service-name-button {
+                                margin-top: 5px;
+                                width: fit-content;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,406 @@
+p {
+  margin-bottom: 0rem;
+}
+
+.NotificationsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #29bdef;
+  font-size: 20px;
+
+  .Notifications-icons {
+    font-size: 30px;
+  }
+}
+
+.NotificationsIcon {
+  cursor: pointer;
+}
+
+.popperBoxNotifications {
+  border: none;
+}
+
+.firstCard {
+  width: 380px;
+  height: 85px;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.mainPopper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  width: 420px;
+}
+
+.mainPopper01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  width: 420px;
+}
+
+.dividerClass {
+  color: black;
+
+  width: 96%;
+}
+
+.cardIconDiv,
+.cardIconDiv2,
+.cardIconDiv3,
+.cardIcon1,
+.cardIcon2,
+.cardIcon3 {
+  border-radius: 100%;
+}
+
+.cardIconDiv {
+  border: #29bdef 2px solid;
+  width: 17%;
+  height: 90%;
+
+  margin-top: -5px;
+}
+
+.cardIcon1 {
+  width: 100%;
+  height: 100%;
+}
+
+.cardIconDiv2 {
+  border: #ff4b4b 2px solid;
+  width: 17%;
+  height: 90%;
+
+  margin-top: -5px;
+}
+
+.cardIcon2 {
+  width: 100%;
+  height: 100%;
+}
+
+.cardIconDiv3 {
+  border: #aebaca 2px solid;
+  width: 17%;
+  height: 90%;
+
+  margin-top: -5px;
+}
+
+.cardIcon3 {
+  width: 100%;
+  height: 100%;
+}
+
+.firstLineFirstCard,
+.notificationTime {
+  margin-bottom: 0rem;
+}
+
+.paragraphicContent {
+  width: 70%;
+  margin-left: 5px;
+  /* background-color: black; */
+}
+
+.dateAndTimeDiv {
+  display: flex;
+  float: right;
+  color: #aebaca;
+}
+
+.notificationTime {
+  margin-right: -10px;
+}
+
+.dateAndTimeDiv3 {
+  display: flex;
+  float: right;
+  color: #aebaca;
+  margin-top: -25px;
+}
+
+.invitationCardNotification {
+  display: flex;
+  margin-top: 5px;
+  border-radius: 16px;
+  justify-content: space-evenly;
+  width: 96%;
+  border: #aebaca 1px solid;
+  margin-bottom: 5px;
+}
+
+.paragraphicMainCardNotifications {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cardIconDiv8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 17%;
+  height: 90%;
+  margin: 10px 10px;
+}
+
+.cardIcon8 {
+  width: 100%;
+  height: 100%;
+}
+
+.closeIconDiv {
+  height: 26px;
+  padding-top: 1%;
+}
+
+.closeIcon {
+  font-size: 25px;
+  color: #aebaca;
+}
+
+.accept-decline {
+  display: flex;
+  margin-top: 15px;
+}
+
+.dateAndTimeDiv8 {
+  display: flex;
+  color: #aebaca;
+  /* background-color: black; */
+  width: 110px;
+  margin-left: 65%;
+}
+
+@media screen and (max-width: 850px) {
+  .mainPopper {
+    width: 320px;
+    position: relative;
+    top: 10px;
+  }
+
+  .mainPopper01 {
+    width: 240px;
+    position: relative;
+    top: 10px;
+  }
+
+  .notificationTime {
+    margin-right: -1px;
+  }
+
+  .pmargintime {
+    margin-left: -17px !important;
+  }
+
+  .cardIconDiv,
+  .cardIconDiv2,
+  .cardIconDiv3,
+  .cardIconDiv8 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .firstLineFirstCard {
+    font-size: 13px;
+  }
+
+  .firstCard {
+    width: auto;
+  }
+}
+
+.Messagepop {
+  .buttonsmobile121 {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    padding: 10px 10px 15px 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .mbilebutton1 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .bwidth {
+        width: 100%;
+      }
+
+      .button3 {
+        background: white 0% 0% no-repeat padding-box;
+
+        border: 1px solid #29bdef;
+        border-radius: 10px;
+        opacity: 1;
+        color: #29bdef;
+        padding: 5px;
+      }
+
+      .button4 {
+        box-shadow: 0px 4px 4px #00000026;
+
+        background: white 0% 0% no-repeat padding-box;
+
+        border: 1px solid #29bdef;
+        border-radius: 10px;
+        opacity: 1;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        padding: 5px;
+      }
+
+      .button5 {
+        text-align: left;
+        font: normal normal bold 16px/19px Lato;
+        letter-spacing: 0px;
+        color: #596066;
+
+        opacity: 1;
+        background: #f7f8fb 0% 0% no-repeat padding-box;
+
+        border: 1px solid #aebaca;
+
+        border-radius: 10px;
+
+        padding: 5px;
+      }
+
+      .button6 {
+        text-align: left;
+        font: normal normal bold 16px/19px Lato;
+        letter-spacing: 0px;
+        color: #596066;
+
+        opacity: 1;
+        background: #f7f8fb 0% 0% no-repeat padding-box;
+
+        border: 1px solid #aebaca;
+
+        border-radius: 10px;
+
+        padding: 5px;
+      }
+
+      .Col1 {
+        background: #ffffff 0% 0% no-repeat padding-box;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 7px 6px #0000000d;
+        opacity: 1;
+      }
+
+      .Col1 button {
+        width: 100%;
+        margin: 0.5rem 0px;
+      }
+    }
+
+    .mbilebutton01 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .bwidth {
+        width: 100%;
+      }
+
+      .button2 {
+        background: #29bdef 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 1px solid #29bdef;
+        border-radius: 10px;
+        opacity: 1;
+        color: white;
+        padding: 5px;
+      }
+
+      .react-date-picker {
+        width: 100% !important;
+      }
+
+      .react-date-picker__wrapper {
+        padding: 5px;
+        border-radius: 10px;
+        border-color: #aebaca !important;
+        width: 100%;
+      }
+
+      .bwidth1 {
+        width: 100%;
+      }
+    }
+
+    @media only screen and (max-width: 850px) {}
+
+    // @media only screen and (max-width:380px) {
+    //   .mbilebutton1{
+    // 	flex-direction: column;
+    //   }
+    //   .bwidth{
+    // 	width: 100% !important ;
+    //   }
+    //    .bwidth1{
+    // 	width: 100% !important ;
+    //   }
+
+    // }
+    // @media only screen and (max-width:480px) {
+    //   .mbilebutton01{
+    // 	flex-direction: column;
+    //   }
+    //   .bwidth{
+    // 	width: 100% !important ;
+    //   }
+    //    .bwidth1{
+    // 	width: 100% !important ;
+    //   }
+    // }
+  }
+}
+
+.MesagepopdivDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #29bdef;
+  font-size: 20px;
+}
+
+.MesagepopdivDiv {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .MesagepopdivDiv {
+    display: flex;
+  }
+
+  .NotificationsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #29bdef;
+    font-size: 20px;
+
+    .Notifications-icons {
+      font-size: 20px;
+    }
+  }
+}

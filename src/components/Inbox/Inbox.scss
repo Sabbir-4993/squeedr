@@ -1,0 +1,729 @@
+.main_reserve {
+  /* width: 1180px;
+            height: 210px; */
+  // background: transparent linear-gradient(180deg, #F7F8FB 0%, #F7F8FB 88%, #F7F8FBF2 93%, #F7F8FB00 100%) 0% 0% no-repeat padding-box;
+  height: 100vh;
+  overflow: hidden;
+
+  .top_reserve {
+    width: 100%;
+    height: 180px;
+    padding-top: 36px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .title {
+    color: red;
+  }
+
+  .tp_reserve {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reserve_h2 {
+    font-size: 34px;
+    color: #000000;
+  }
+
+  .reserve_icons {
+    margin-top: 18px;
+    padding-right: 16px;
+  }
+
+  .search_icon {
+    color: #29bdef;
+    cursor: pointer;
+  }
+
+  .line {
+    /* margin-top: 20px; */
+    width: 100%;
+  }
+
+  .isection2 {
+    padding-top: 5px;
+  }
+
+  .Col1 {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 7px 6px #0000000d;
+    opacity: 1;
+
+    .react-date-picker {
+      width: 100% !important;
+      display: flex;
+      align-items: center;
+
+    }
+
+    .react-date-picker button {
+      margin: 0px;
+      width: inherit;
+      padding: 0px;
+
+    }
+
+    .react-date-picker__inputGroup {
+      min-width: 0px;
+      display: flex;
+      flex: 0 0 auto;
+      width: 70%;
+    }
+
+    .react-date-picker__wrapper {
+      padding: 5px;
+      border-radius: 10px;
+      border-color: #AEBACA !important;
+      width: 100%;
+      height: 40px;
+      display: flex;
+
+    }
+
+    .react-date-picker__clear-button {}
+
+    .bwidth1 {
+      width: 100%;
+    }
+  }
+
+  .Col1 button {
+    width: 100%;
+    margin: 0.5rem 0px;
+  }
+
+  .button1 {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #aebaca;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  .button2 {
+    background: #29bdef 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #29bdef;
+    border-radius: 10px;
+    opacity: 1;
+    color: white;
+    padding: 5px;
+  }
+
+  .button3 {
+    background: white 0% 0% no-repeat padding-box;
+
+    border: 1px solid #29bdef;
+    border-radius: 10px;
+    opacity: 1;
+    color: #29bdef;
+    padding: 5px;
+  }
+
+  .button4 {
+    box-shadow: 0px 4px 4px #00000026;
+
+    background: white 0% 0% no-repeat padding-box;
+
+    border: 1px solid #29bdef;
+    border-radius: 10px;
+    opacity: 1;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+  }
+
+  .button5 {
+    text-align: left;
+    font: normal normal bold 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #596066;
+
+    opacity: 1;
+    background: #f7f8fb 0% 0% no-repeat padding-box;
+
+    border: 1px solid #aebaca;
+
+    border-radius: 10px;
+
+    padding: 5px;
+  }
+
+  .button6 {
+    text-align: left;
+    font: normal normal bold 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #596066;
+
+    opacity: 1;
+    background: #f7f8fb 0% 0% no-repeat padding-box;
+
+    border: 1px solid #aebaca;
+
+    border-radius: 10px;
+
+    padding: 5px;
+  }
+
+  .imain3 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .select {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #aebaca;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #868e96;
+
+    .select::after {
+      color: red;
+    }
+
+    option {
+      font-weight: normal;
+      display: block;
+      white-space: nowrap;
+      min-height: 1.2em;
+      padding: 0px 2px 1px;
+      border: 3px solid #aebaca;
+      border-radius: 10px;
+    }
+  }
+
+  .isection2 {}
+
+  .select-k {
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+      border-radius: 10px !important;
+    }
+
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+      width: 215px !important;
+    }
+
+    .ant-select-open,
+    .ant-select-focused {
+      border-radius: 0px 0px 10px 10px !important;
+      // background-color: red;
+    }
+  }
+
+  .inboxwrap {
+    overflow-x: scroll;
+    height: 79vh;
+
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    .isection3 {
+      display: flex;
+      flex: 1 1 0%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 4px 4px #00000026;
+      border-radius: 10px;
+      width: 100%;
+      cursor: pointer;
+      margin-bottom: 2%;
+      vertical-align: middle;
+
+      .s3img {
+        // background: transparent 0% 0% no-repeat padding-box;
+        // border: 2px solid #29BDEF;
+        // opacity: 1;
+      }
+
+      .h6s3 {
+        text-align: left;
+        font: normal normal bold 16px/19px Lato;
+        letter-spacing: 0px;
+        color: #596066;
+        opacity: 1;
+
+        font-size: 16px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .h61s3 {
+        text-align: left;
+        font: normal normal normal 14px/17px Lato;
+        letter-spacing: 0px;
+        color: #868e96;
+        opacity: 1;
+
+        font-size: 14px;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .h62s3 {
+        text-align: left;
+        font: normal normal normal 14px/17px Lato;
+        letter-spacing: 0px;
+        color: #aebaca;
+        opacity: 1;
+        font-size: 14px;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .h63s3 {
+        text-align: right;
+        font: normal normal normal 14px/17px Lato;
+        letter-spacing: 0px;
+        color: #868e96;
+        opacity: 1;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .h62 {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    // background: #f1f1f1;
+    /* background: transparent; */
+    background: none;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    // background: #888;
+    background: none;
+    /* background: #aebaca; */
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    // background: #555;
+    background: none;
+    /* background: #aebaca; */
+  }
+}
+
+.ant-drawer-header {
+  background: #f7f8fb 0% 0% no-repeat padding-box !important;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.ant-drawer-body {
+  // padding: 0px 24px 24px 24px !important;
+  padding: 0px !important;
+}
+
+.titled {
+  display: flex;
+  flex: 1 1 0%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.p1a {
+  text-align: left;
+  font: normal normal bold 18px/22px Lato;
+  letter-spacing: 0px;
+  color: #000000;
+  padding-right: 15px;
+  opacity: 1;
+  padding-left: 15px;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.p2b {
+  text-align: left;
+  font: normal normal normal 16px/19px Lato;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-right: 15px;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.p3c {
+  text-align: right;
+  font: normal normal normal 14px/17px Lato;
+  letter-spacing: 0px;
+  color: #868e96;
+  opacity: 1;
+  padding-left: 15px;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.innertitle {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.inboxmobile {
+
+  .inboxheader {
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 3px 4px #00000038;
+    padding: 8px 18px;
+    position: relative;
+
+    .chat {
+      color: white;
+      font: normal normal normal 16px/22px Lato;
+
+
+      .icon {
+        cursor: pointer;
+        color: #AEBACA;
+        margin-right: 5px;
+      }
+
+    }
+
+    .circle {
+      display: flex;
+      color: #29BDEF;
+
+      .messagenote {
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 13.6%;
+        right: 4.3%;
+        color: #29BDEF;
+        opacity: 0.6;
+        text-align: center;
+
+      }
+
+      .imghe {
+
+        top: 21%;
+        right: 6.5%;
+        position: absolute;
+        opacity: 0.6;
+        color: #29BDEF;
+        font: normal normal normal 12px/19px Lato;
+      }
+
+      @media(max-width:381px) {
+        .imghe {
+          right: 7%;
+        }
+      }
+
+      @media(min-width:475px) and (max-width:600px) {
+        .imghe {
+          right: 6.2%;
+        }
+      }
+
+      @media(min-width:601px) {
+        .imghe {
+          right: 5.6%;
+        }
+      }
+    }
+
+  }
+
+  .searchbody {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .searchmain {
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #AEBACA;
+      border-radius: 20px;
+      opacity: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2px 7px 2px 9px;
+      height: 40px;
+
+      width: 85%;
+
+    }
+
+
+
+
+  }
+
+  .inboxchatmain01 {
+    background-color: white;
+
+    .chatmaindate {
+      background: #F8F8F8 0% 0% no-repeat padding-box;
+      opacity: 1;
+      height: 40px;
+      display: flex;
+      align-items: center;
+
+      .datecontent {
+        text-align: center;
+        font: normal normal normal 14px/17px Lato;
+        letter-spacing: 0px;
+        color: #AEBACA;
+        opacity: 1;
+        padding: 10px 0px 11px 18px;
+      }
+    }
+
+    .messagemain01 {
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      padding: 23px 15px 15px 22px;
+
+      .image {
+        height: 40px;
+        width: 40px;
+        margin-right: 9px;
+
+      }
+
+      .text {
+        font: normal normal normal 14px/19px Lato;
+        font-weight: 500;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        .textsub {
+          text-align: left;
+          font: normal normal normal 12px/15px Lato;
+          letter-spacing: 0px;
+          color: #AEBACA;
+          opacity: 1;
+          margin: 0px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .para01 {
+          margin: 0px;
+          text-align: left;
+          font: normal normal normal 12px/15px Lato;
+          letter-spacing: 0px;
+          color: #29BDEF;
+          opacity: 1;
+        }
+      }
+
+    }
+
+    .divider {
+
+      border: 0.5px solid #AEBACA;
+      opacity: 1;
+      margin-top: 10px
+    }
+  }
+
+
+
+
+}
+
+@media(min-width:850px) {
+  .inboxmobile {
+    display: none;
+  }
+}
+
+// .buttonsmobile121{
+//   background: #FFFFFF 0% 0% no-repeat padding-box; 
+//   padding:10px 15px 15px 22px; 
+//   margin-top: 5px;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 10px;
+//   .mbilebutton1{
+//     display: flex;
+
+//     gap: 10px;
+
+
+//    .bwidth{
+//      width: 50%;
+//    }
+//   .button3 {
+//     background: white 0% 0% no-repeat padding-box;
+
+//     border: 1px solid #29bdef;
+//     border-radius: 10px;
+//     opacity: 1;
+//     color: #29bdef;
+//     padding: 5px;
+//   }
+//   .button4 {
+//     box-shadow: 0px 4px 4px #00000026;
+
+//     background: white 0% 0% no-repeat padding-box;
+
+//     border: 1px solid #29bdef;
+//     border-radius: 10px;
+//     opacity: 1;
+//     font-weight: 500;
+//     color: rgb(0, 0, 0);
+//     padding: 5px;
+//   }
+//   .button5 {
+//     text-align: left;
+//     font: normal normal bold 16px/19px Lato;
+//     letter-spacing: 0px;
+//     color: #596066;
+
+//     opacity: 1;
+//     background: #f7f8fb 0% 0% no-repeat padding-box;
+
+//     border: 1px solid #aebaca;
+
+//     border-radius: 10px;
+
+//     padding: 5px;
+//   }
+
+
+//   .button6 {
+//     text-align: left;
+//     font: normal normal bold 16px/19px Lato;
+//     letter-spacing: 0px;
+//     color: #596066;
+
+//     opacity: 1;
+//     background: #f7f8fb 0% 0% no-repeat padding-box;
+
+//     border: 1px solid #aebaca;
+
+//     border-radius: 10px;
+
+//     padding: 5px;
+//   }
+
+//   .Col1 {
+//     background: #ffffff 0% 0% no-repeat padding-box;
+//     padding: 10px;
+//     border-radius: 10px;
+//     box-shadow: 2px 7px 6px #0000000d;
+//     opacity: 1;
+
+//   }
+
+
+
+//   .Col1 button {
+//     width: 100%;
+//     margin: 0.5rem 0px;
+//   }
+
+
+// }
+// .mbilebutton01{
+//   display: flex;
+
+//   gap: 10px;
+
+
+//  .bwidth{
+//    width: 50%;
+//  }
+//  .button2 {
+//   background: #29bdef 0% 0% no-repeat padding-box;
+//   box-shadow: 0px 3px 6px #00000029;
+//   border: 1px solid #29bdef;
+//   border-radius: 10px;
+//   opacity: 1;
+//   color: white;
+//   padding: 5px;
+// }
+//  .react-date-picker{
+//   width: 100% !important;
+// }
+// .react-date-picker__wrapper {
+//   padding: 5px;
+//   border-radius: 10px;
+//   border-color: #AEBACA !important;
+//   width: 100%;
+// }
+
+// .bwidth1{
+//  width: 50%  ;
+// }
+
+// }
+//   @media only screen and (max-width:380px) {
+//     .mbilebutton1{
+//       flex-direction: column;
+//     }
+//     .bwidth{
+//       width: 100% !important ;
+//     }
+//      .bwidth1{
+//       width: 100% !important ;
+//     }
+
+//   }
+//   @media only screen and (max-width:480px) {
+//     .mbilebutton01{
+//       flex-direction: column;
+//     }
+//     .bwidth{
+//       width: 100% !important ;
+//     }
+//      .bwidth1{
+//       width: 100% !important ;
+//     }
+//   }
+
+// }

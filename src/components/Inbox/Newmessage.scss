@@ -1,0 +1,211 @@
+.mess {
+    background: #F7F8FB 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 22px 0px 21px 20px;
+}
+
+.mess p {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+
+    color: black;
+    font: normal normal normal 16px/20px Lato;
+    line-height: 18px;
+
+    margin-bottom: 0px !important;
+
+}
+
+.mlabelsub {
+    text-align: left;
+    font: normal normal normal 12px/15px Lato;
+    letter-spacing: 0px;
+    color: #AEBACA;
+    opacity: 1;
+    padding-bottom: 10px;
+}
+
+.minputsub {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #AEBACA;
+    border-radius: 10px;
+    opacity: 1;
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #AEBACA;
+    padding: 20px;
+    opacity: 1;
+}
+
+.minputsub:focus-visible {
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    border-color: none !important;
+}
+
+
+
+.minput1 {
+
+    padding: 15px 19px 0px 21px;
+
+}
+
+.minputsub2 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #AEBACA;
+    border-radius: 10px;
+    opacity: 1;
+    height: 180px;
+    width: 100%;
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #AEBACA;
+    padding: 20px;
+    opacity: 1;
+    padding-top: 10px;
+    display: flex;
+    position: relative;
+
+}
+
+.minputsub3 {
+
+    height: 150px !important;
+    align-items: flex-start !important;
+    width: 100%;
+
+
+
+    top: 0;
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #AEBACA;
+    overflow: scroll !important;
+
+    opacity: 1;
+}
+
+
+
+
+.buttonmsend-wrapper {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.buttonmsend {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background: transparent linear-gradient(180deg, #29BDEF 0%, #08A7DE 100%) 0% 0% no-repeat padding-box;
+
+}
+
+.mdragfile {
+    margin: 15px 7px 0px 10px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border: 1px dashed #AEBACA;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+
+    padding: 20px;
+}
+
+.mdragfile p {
+    margin-bottom: 0 !important;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #868E96;
+    opacity: 1;
+}
+
+.webmessage {
+    display: block;
+}
+
+.mobilemeesage {
+    display: none;
+}
+
+.Message112 {
+    background-color: #F7F8FB;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    margin-top: -8px;
+}
+
+.close-btn112 {
+    margin: 55px auto 0px;
+    width: 35px;
+    height: 45px;
+    border-radius: 35px;
+    background-color: #29bdef;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+@media (max-width:850px) {
+
+    .webmessage {
+        display: none;
+    }
+
+    .mobilemeesage {
+        display: block;
+        margin-top: 60px;
+        padding-bottom: 150px;
+    }
+
+    .mdragfile {
+        background: #F4F4F4 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .mess {
+
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #0000001C;
+        border-radius: 10px 10px 0px 0px;
+        margin-right: 18px;
+        margin-left: 18px;
+    }
+
+    .minputsub {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .minputsub2 {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 10px;
+        border: none;
+    }
+
+}

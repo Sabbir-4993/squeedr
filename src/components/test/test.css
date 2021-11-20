@@ -1,0 +1,433 @@
+.toolbarLogin {
+	display: flex;
+	flex-direction: row;
+	background-color: #37465f;
+	color: white;
+	border-bottom: #37465f 2px solid;
+}
+
+.headingLogoLogin {
+	margin-left: 2px;
+}
+
+.drawerImageDivLogin {
+	overflow: hidden;
+	/* background-color: #37465f; */
+	background-image: url('../../assets/mainPic.png');
+	height: 100vh;
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: -90%;
+	display: flex;
+	flex-direction: column;
+}
+
+.opacityLogin {
+	background-color: #37465f;
+	height: 100vh;
+	opacity: 0.63;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+.lowerDrawerContentLogin {
+	flex-direction: column;
+	color: white;
+	margin-left: 20px;
+	margin-bottom: 20%;
+}
+
+.dotsLogin {
+	height: auto;
+	width: auto;
+	margin-left: 40%;
+}
+.mainContainerSignup {
+	width: 171vh;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top:10vh;
+	/* align-items: center; */
+}
+
+.boxSignUp {
+	overflow: hidden;
+}
+
+.mainContentDivSignup {
+	display: flex;
+	flex-direction: column;
+	width: 28vw;
+	height: 100%;
+	/* background-color: black; */
+}
+
+.headerSignup {
+	padding:20px 0;
+	width: 100%;
+	/* height: 20%; */
+	background-color: #37465f;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	flex-direction: row;
+	color: white;
+}
+
+.mainContent-Signup {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	/* height: 80%; */
+	background-color: #37465f;
+}
+
+.headerLogoDivSignup {
+	width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: aliceblue;
+    margin-left: 20px;
+    border: #29bdef 2px solid;
+}
+
+.headerLogoSignup {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+
+.textDivSignup {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.headingFirstSignup {
+	text-align: left;
+	font-size: 22px;
+	color: #c0c5cd;
+	margin-top: 5px;
+}
+
+.headingSecondSignup {
+	color: #e4e6e9;
+	font-size: 24px;
+}
+
+.newHereLogin {
+	margin-top: 20px;
+	margin-left: 45%;
+	/* margin-right: 10%; */
+}
+.newHereTextLogin {
+	color: #aebaca;
+	font-size: 14px;
+}
+
+.textFieldsSignup {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 90%;
+	height: 40px;
+	/* background-color: black; */
+}
+.emialInputEyeSignUpMobileView {
+	position: relative;
+	top:11px;
+}
+.passwordDivSignup {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: auto;
+}
+
+.passwordInputSignup {
+	border: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 100%;
+	width: 70%;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.goButtonSignup {
+	background-color: #20b6ea;
+	color: white;
+	border: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 50px;
+}
+
+.rememberForgotSignup {
+	display: flex;
+	flex-direction: row;
+	color: #aebaca;
+	font-size: 10px;
+	width: 85%;
+	justify-content: space-between;
+	margin-top: 4%;
+}
+
+.forgotSignup {
+	color: white;
+	font-size: 14px;
+}
+
+.borderDivSignup {
+	width: 25%;
+	height: 5%;
+	border-bottom: #728094 2px solid;
+}
+
+.mainLogosSignup {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	/* height: 15%; */
+	/* background-color: black; */
+	margin-top: 6%;
+}
+
+.googleDivSignup {
+	width: 25%;
+	height: 100%;
+}
+
+.googleLogoSignup {
+	width: 64px;
+	height: 64px;
+}
+
+.outlookLogoSignup {
+	width: 64px;
+	height: 64px;
+}
+
+.outlookDivSignup {
+	width: 64px;
+	height: 64px;
+}
+
+.facebookDivSignup {
+	background-color: #2d88ff;
+	width: 64px;
+	height: 64px;
+}
+.headerMobileViewSignUp {
+	display: none;
+}
+
+.header2ndHeadingMainDiv {
+	display: flex;
+}
+
+.passwordInputSignupMobileView {
+	display: none;
+}
+
+.continueWithMobileViewSignUp {
+	display: none;
+}
+
+.facebookDivSignup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.facebookIconSignp {
+	font-size: 50px;
+}
+
+.termsSecondMobileViewSignUp {
+	display: none;
+}
+
+@media (max-width: 850px) {
+	.mainContainerSignup {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.mainContentDivSignup {
+		width: 100%;
+		/* height: 100%; */
+	}
+
+	.headerMobileViewLogInButton {
+		margin-bottom: 0rem;
+	}
+
+	.headerMobileViewSignUp {
+		display: flex;
+		justify-content: space-between;
+		color: #aebaca;
+		width: 100%;
+		background-color: #37465f;
+	}
+
+	.headerHeadingIconMobileView {
+		/* width: 35%; */
+	}
+	.headerMobileViewheadingImage {
+		height: 45px;
+		margin-left: 10%;
+	}
+
+	.headerSignup {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		background-color: #37465f;
+		height: 250px;
+	}
+
+	.headerLogInButtonButton {
+		margin-top: 1.5%;
+		margin-right: 3%;
+		align-self: center;
+	}
+
+	.headerMobileViewSignUp {
+		margin-top: 5%;
+	}
+
+	.headerMobileViewLogInButton {
+		font-size: 18px;
+	}
+	
+	.header2ndHeadingMainDiv {
+		width: 100%;
+		/* height: 20%; */
+		background-color: #37465f;
+		display: flex;
+		/* justify-content: center; */
+		align-items: center;
+		flex-direction: row;
+		color: white;
+		padding: 10px 0;
+		margin-top:50px;
+	}
+
+	.headerLogoDivSignup {
+		/* height: 100%; */
+	}
+	.headingSecondSignup {
+		font-size: 20px;
+	}
+	.headingFirstSignup {
+		font-size:20px;
+		margin:0;
+	}
+	.textFieldsSignup {
+		width: 90%;
+		height: 55px !important;
+	}
+	.emialInputEyeSignUpMobileView {
+		top:0;
+	}
+	.loginClientMobileViewSignUp {
+		line-height: 2.5 !important;
+	}
+
+	.passwordInputSignup {
+		display: none;
+		border-top-left-radius: 16px;
+		border-bottom-left-radius: 16px;
+	}
+
+	.passwordInputSignupMobileView {
+		display: flex;
+		border: none;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		height: 100%;
+		width: 70%;
+		padding-left: 10px;
+		font-weight: bold;
+		font-size: larger;
+		color: #aebaca;
+	}
+
+	.goButtonSignup {
+		background-color: #33e68d;
+		width: 20%;
+		font-size: 20px;
+	}
+
+	/* .passwordDivSignup {
+		height: 80%;
+	} */
+
+	.emialInputEyeSignUpMobileView {
+		font-size: 25px;
+		color: #aebaca;
+		margin-top: 2.7%;
+		margin-right: 3%;
+	}
+
+	.rememberForgotSignup {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.termsMobileViewSignUp {
+		display: none;
+	}
+
+	.borderDivSignup {
+		height: 3.5%;
+		width: 15%;
+	}
+
+	.continueWithMobileViewSignUp {
+		display: flex;
+		color: #aebaca;
+	}
+
+	.continueWithMobileViewSignUp {
+		margin-top: 12.5%;
+	}
+
+	.googleDivSignup,
+	.googleLogoSignup,
+	.outlookDivSignup,
+	.outlookLogoSignup,
+	.facebookDivSignup {
+		border-radius: 100%;
+		width:64px;
+		height:64px;
+	}
+
+	.mainLogosSignup {
+		margin-top: 3%;
+	}
+
+	.termsSecondMobileViewSignUp {
+		display: flex;
+		color: #29bdef;
+		font-size: 18px;
+		margin-top: 14.5%;
+	}
+}
+@media screen and (max-width: 1250px) and (min-width:850px){
+	.mainContentDivSignup {
+		width: 45vw;
+	}
+}
