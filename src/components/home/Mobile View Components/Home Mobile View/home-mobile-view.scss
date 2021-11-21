@@ -1,13 +1,20 @@
 .home-mobile-view {
   padding: 35px 0px 40px 0px;
   width: 100%;
+  
 
   .page-render {
+    padding-bottom: 10px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    z-index: 1000 ;
+    width: 100%;
     height: 50px;
+    position: fixed;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 
     .display-center- {
+      padding-top: 10px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -23,6 +30,7 @@
       color: #000000;
       border-radius: 0px 0px 10px 10px;
       box-shadow: 0px 0px 50px #00000029;
+      padding-bottom: 10px;
 
       .icon {
         color: #29bdef;

@@ -26,7 +26,7 @@ import Profileform from "../../Profile setting/Profileform";
 
 // style
 import "./desktop.scss";
-import Sidebar from "../sidebar/Sidebar";
+// import Sidebar from "../sidebar/Sidebar";
 
 const Desktop = () => {
   const [openSidebar, setOpenSidebar] = useState(true);
