@@ -197,7 +197,6 @@ const Inbox = () => {
                     className="icons"
                     style={{
                       marginRight: "10px",
-                      marginRight: "10px",
                       fontSize: "30px",
                       color: "#29bdef",
                       display: displaySearch ? "none" : "block",
