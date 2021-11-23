@@ -25,6 +25,7 @@ import { BiChevronsDown } from "react-icons/bi";
 import TopNavbar from "../../../Mobile View Components/Top Navbar/TopNavbar";
 // style
 import "./membershipRightDrawer.scss";
+import {padding} from "@mui/system";
 
 const item = [1, 2];
 
@@ -481,7 +482,7 @@ const MemberShipRightDrawer2 = () => {
                   </div>
                 </div>
                 <div className="border"></div>
-                <div className="listcontent">
+                <div className="buttonmsend">
                   Cancel Membership
                   <div>
                     {" "}
@@ -679,14 +680,6 @@ const MemberShipRightDrawer2 = () => {
               style={{ display: text1 ? "flex" : "none" }}
             >
               <Toggle settext={true} />
-              <div
-                className="toglebelow101"
-                style={{ display: text2 ? "flex" : "none" }}
-              >
-                Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez
-                ce vieux whisky au juge blond qui fume sur son île intérieure, à
-                côté de l"alcôve ovoïde, où les bûches se
-              </div>
             </div>
 
             <div className="list102">
@@ -905,32 +898,11 @@ const MemberShipRightDrawer2 = () => {
                 </div>
               </div>
               <div className="border"></div>
-              <div className="listcontent">
-                Cancel Membership
-                <div>
-                  {" "}
-                  <BiChevronDown
-                    className="svg121"
-                    style={{
-                      display: text5 ? "flex" : "none",
-                      cursor: "pointer",
-                    }}
-                    onClick={() => {
-                      settext5(false);
-                      settext1(true);
-                    }}
-                  />
-                  <BiChevronUp
-                    className="svg121"
-                    style={{
-                      display: text5 ? "none" : "flex",
-                      cursor: "pointer",
-                    }}
-                    onClick={() => {
-                      settext5(true);
-                      settext1(true);
-                    }}
-                  />
+              <div className="container">
+                <div className="row">
+                  <div className="col text-center">
+                    <button style={{ border_redius: "1.0rem" }} className="btn btn-danger btn-lg">Cancel Membership</button>
+                  </div>
                 </div>
               </div>
               <div style={{ display: text5 ? "none" : "block" }}>

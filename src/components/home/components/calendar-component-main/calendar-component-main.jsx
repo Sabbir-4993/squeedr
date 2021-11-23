@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Drawer } from "antd";
+import {Drawer, TimePicker} from "antd";
 import { Menu, Dropdown, Button, Radio, Space } from "antd";
 import { GrFormClose } from "react-icons/gr";
 import { Modal, Box } from "@mui/material/";
+
 
 import { BiLink } from "react-icons/bi";
 
@@ -1202,7 +1203,9 @@ const CalendarComponentRightDrawer = () => {
                   <div className="start__para">Start time</div>
 
                   <div className="start__box">
-                    <div className="start__text">11:00 hrs</div>
+                    <div className="start__text">
+                     11.00 hrs
+                    </div>
                     <div className="start__icon">
                       <div className="icon1">
                         <TiArrowSortedUp />
@@ -1212,6 +1215,8 @@ const CalendarComponentRightDrawer = () => {
                       </div>
                     </div>
                   </div>
+
+
                 </div>
 
                 <div className="view__start mar-t">
