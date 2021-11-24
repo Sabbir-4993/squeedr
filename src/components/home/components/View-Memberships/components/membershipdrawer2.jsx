@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Drawer } from "antd";
+import {Drawer} from "antd";
 import { MdClose } from "react-icons/md";
 
 import Button from "@mui/material/Button";
@@ -26,6 +26,7 @@ import TopNavbar from "../../../Mobile View Components/Top Navbar/TopNavbar";
 // style
 import "./membershipRightDrawer.scss";
 import {padding} from "@mui/system";
+import {Card} from "react-bootstrap";
 
 const item = [1, 2];
 
@@ -716,44 +717,46 @@ const MemberShipRightDrawer2 = () => {
               </div>
               <div style={{ display: text2 ? "none" : "block" }}>
                 <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
+                  <div className="first-line-others-logo-div">
+                    <FiCheck className="check-logo-first-line" />
                   </div>
                   <div className="text">
-                    <div className="tite">Automatic Renewal</div>
                     <div className="subtitle">
-                      Purchase automatically a renewal for your membership
-                      everytime it runs out of passes or became unvalid. You
-                      must have a credit card registered.
+                      Voyez ce jeu exquis wallon, de graphie en kit mais.
                     </div>
                   </div>
                 </div>
                 <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
+                  <div className="first-line-others-logo-div">
+                    <FiCheck className="check-logo-first-line" />
                   </div>
                   <div className="text">
-                    <div className="tite">Send notifications to my email</div>
                     <div className="subtitle">
-                      Receive an email from Squeedr everytime an upcoming
-                      booking, rescheduled event, cancellation, etc.
+                      bref. Portez ce vieux Whisky au juge blond qui
                     </div>
                   </div>
                 </div>
                 <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
+                  <div className="first-line-others-logo-div">
+                    <FiCheck className="check-logo-first-line" />
                   </div>
                   <div className="text">
-                    <div className="tite">
-                      Show nickname instead of full name
-                    </div>
                     <div className="subtitle">
-                      Your profile picture and your last name(s) on the back of
-                      your membership will be hidden from sight.
+                      fume sur son île intérieure, à côté de l"alcôve
                     </div>
                   </div>
                 </div>
+                <div className="innercontent">
+                  <div className="first-line-others-logo-div">
+                    <FiCheck className="check-logo-first-line" />
+                  </div>
+                  <div className="text">
+                    <div className="subtitle">
+                      Ovoïde, où les bûches se consument dans l"âtre, ce
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
               <div className="border"></div>
@@ -857,92 +860,38 @@ const MemberShipRightDrawer2 = () => {
                 </div>
               </div>
               <div style={{ display: text4 ? "none" : "block" }}>
-                <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
-                  </div>
-                  <div className="text">
-                    <div className="tite">Automatic Renewal</div>
-                    <div className="subtitle">
-                      Purchase automatically a renewal for your membership
-                      everytime it runs out of passes or became unvalid. You
-                      must have a credit card registered.
-                    </div>
-                  </div>
-                </div>
-                <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
-                  </div>
-                  <div className="text">
-                    <div className="tite">Send notifications to my email</div>
-                    <div className="subtitle">
-                      Receive an email from Squeedr everytime an upcoming
-                      booking, rescheduled event, cancellation, etc.
-                    </div>
-                  </div>
-                </div>
-                <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
-                  </div>
-                  <div className="text">
-                    <div className="tite">
-                      Show nickname instead of full name
-                    </div>
-                    <div className="subtitle">
-                      Your profile picture and your last name(s) on the back of
-                      your membership will be hidden from sight.
-                    </div>
-                  </div>
-                </div>
+                <Card border="info" style={{ width: '20rem',borderRadius:'1rem' }}>
+                  <Card.Header style={{backgroundColor: '#37465F',textAlign:"center",color:"white",fontSize: '20px',borderRadius: "1rem 1rem 0rem 0rem"}}>Payment Method</Card.Header>
+                  <Card.Body>
+                    <Card.Text>
+                      <Card.Subtitle style={{marginBottom:"20px"}}>Owner Name:Anne Lorem Ipsun</Card.Subtitle>
+                      <Card.Subtitle style={{marginBottom:"20px"}}>Email:annelorem@gmail.com</Card.Subtitle>
+                      <Card.Subtitle style={{marginBottom:"20px"}}>Payment Date:12 May, 2020</Card.Subtitle>
+                      <Card.Subtitle style={{marginBottom:"20px"}}>Billing Address:Street Name, District/Area City. </Card.Subtitle>
+                      <Card.Subtitle style={{marginBottom:"20px"}}>User ID:216515451</Card.Subtitle>
+                      <Card.Subtitle style={{marginBottom:"20px"}}>Credit Card: </Card.Subtitle>
+                      <div className="innercontent" style={{marginLeft: "40px"}}>
+                        <div className="toggle">
+                          <Toggle settext={false} />
+                        </div>
+                        <div className="text">
+                          <div className="tite">Automatic Renewal Activated</div>
+                        </div>
+                      </div><br/>
+                      <div className="row">
+                        <div className="col text-center">
+                          <button style={{ borderRadius:'1rem',marginTop:"10px" }} className="btn btn-outline-info ">Edit Information</button>
+                        </div>
+                      </div>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
               </div>
               <div className="border"></div>
               <div className="container">
                 <div className="row">
                   <div className="col text-center">
                     <button style={{ border_redius: "1.0rem" }} className="btn btn-danger btn-lg">Cancel Membership</button>
-                  </div>
-                </div>
-              </div>
-              <div style={{ display: text5 ? "none" : "block" }}>
-                <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
-                  </div>
-                  <div className="text">
-                    <div className="tite">Automatic Renewal</div>
-                    <div className="subtitle">
-                      Purchase automatically a renewal for your membership
-                      everytime it runs out of passes or became unvalid. You
-                      must have a credit card registered.
-                    </div>
-                  </div>
-                </div>
-                <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
-                  </div>
-                  <div className="text">
-                    <div className="tite">Send notifications to my email</div>
-                    <div className="subtitle">
-                      Receive an email from Squeedr everytime an upcoming
-                      booking, rescheduled event, cancellation, etc.
-                    </div>
-                  </div>
-                </div>
-                <div className="innercontent">
-                  <div className="toggle">
-                    <Toggle settext={false} />
-                  </div>
-                  <div className="text">
-                    <div className="tite">
-                      Show nickname instead of full name
-                    </div>
-                    <div className="subtitle">
-                      Your profile picture and your last name(s) on the back of
-                      your membership will be hidden from sight.
-                    </div>
                   </div>
                 </div>
               </div>
